@@ -1,0 +1,109 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-family: "Cabin", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  background-image: url(../images/code1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; 
+  text-decoration: none;
+}
+#header-div{
+	background-color: #ccc;
+	color: #fff;
+	text-align: right;
+	transition: 1s;
+	/*z-index: 1000;*/
+}
+.is-sticky #header-div{
+	background-color: black;
+}
+#header-div ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 12px;
+}
+#header-div ul li a:hover{
+	color: red;
+	font-weight: bold;
+	text-decoration: none;
+}
+#resume-div{
+	background-color: #cc9161;
+}
+#resume-div p{
+	display: inline-block;
+}
+.resume{
+	color: red;
+}
+
+#mypic{
+	border-radius: 50%;
+	height: 150px;
+	margin: 0 auto;
+	
+
+
+}
+#intro-div{
+	background-color: #ccc;
+	/*opacity: 0.9;*/
+	height: 800px;
+}
+#skill-page{
+	background-color: #fff;
+	/*opacity: 0.9;*/
+
+}
+.skill-sec div {
+    display: inline-block;
+    padding: 3px 20px;	
+}
+
+.skills-col {
+    max-width: 1100px;
+    padding-top: 30px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+#project{
+	background-color: #6886b7;
+	/*opacity: 0.9;*/
+}
+#service-div{
+	background-color: #994343;
+	padding: 40px 0 40px 0;
+
+}
+#media-div{
+	background-color: #21af49;	
+}
+#footer-div{
+	background-color: #2186af;
+	height: 1000px;
+}
+.flex-box-info{
+	border: 1px solid #fff;
+	height: 140px;
+	margin: 5px;
+	padding: 25px;
+	border-radius: 10px;
+
+}
+#contact-div{
+	background-color: #ccc;
+	height: 250px;
+	text-align: center;
+}
+#home{
+	margin: 0 auto;
+	width: 80%;
+
+}
+.name-pic{
+/*	border: 1px solid black;*/
+
+}
