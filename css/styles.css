@@ -19,6 +19,10 @@ body {
 .is-sticky #header-div{
 	background-color: black;
 }
+.is-sticky #header-div ul li a{
+	color: white;
+
+}
 #header-div ul li{
 	list-style-type: none;
 	display: inline-block;
@@ -26,13 +30,12 @@ body {
 }
 #header-div ul li a:hover{
 	color: red;
-	font-weight: bold;
 	text-decoration: none;
 }
 #resume-div{
 	background-color: #cc9161;
 }
-#resume-div p{
+#resume-div ul li{
 	display: inline-block;
 }
 .resume{
@@ -43,9 +46,6 @@ body {
 	border-radius: 50%;
 	height: 150px;
 	margin: 0 auto;
-	
-
-
 }
 #intro-div{
 	background-color: #ccc;
@@ -106,4 +106,7 @@ body {
 .name-pic{
 /*	border: 1px solid black;*/
 
+}
+#btn-resume{
+	padding: 10px;
 }
