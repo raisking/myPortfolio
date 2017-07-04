@@ -4,56 +4,33 @@
   <title>Prakash Rai</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
-  <link rel="stylesheet" href="css/app.css">
-  <link rel="stylesheet" href="css/interaction.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
   <body>
-<!--     <header>
-    <div class="container-fluid mainNav">
-      <nav class="navbar navbar-default navbar-fixed-top">
-                <div class="container">
-                  <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>                        
-                        </button>
-                        <a href="index.html">
-                        <img class="img-responsive" id="logo" src="images/logo.png" alt="Logo"></a>
-                  </div>
-                  <div class="collapse navbar-collapse" id="myNavbar">
-                        <ul class="nav navbar-nav">
-                          <li><a href="index.html">Home</a></li>
-                          <li><a href="#">About</a></li>
-                           <li><a href="#myProject">Project</a></li>
-                          <li><a href="https://github.com/raisking" target="_blank">Github</a></li>
-                          <li><a href="https://www.linkedin.com/in/prakash-rai-89398011a/" target="_blank">LinkedIn</a></li>
-      				            <li><a href="#footer-div">Contact</a></li>  
-                        </ul>
-                        <ul class="nav navbar-nav navbar-right">
-                          <button type="button" class="btn btn-info"><a href="images/prai_Resume.pdf" target="_blank"><span class="resume">Download Resume</span></a><i class="fa fa-hand-peace-o" aria-hidden="true"></i></button>
-                        </ul>
-                </div>
-              </div>
-
-        </nav>
-      </div>
-    </header> -->
-
-  <!--=================================HeaderNavbar End=====================================-->
-
-    <div class="container-fluid myInfo">
-              <div class="aboutMe-wrapper">
+    <div class="container-fluid" id="resume-div">
+    <p class="email">email@raiprakas007@gmail.com</p>
+    <p class="resume">Resume</p>
+  </div>
+  <div class="container-fluid" id="header-div">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#contact-div">Contact</a></li>
+    </ul>
+  </div>
+  <!--=========================================Introduction Page=====================================================-->
+    <div class="container-fluid" id="intro-div">
+      <div class="row">
+              <div class="col-md-6 name-pic">
                 <img src="images/ksu_me.jpg" class="img-responsive animated fadeInLeft" id="mypic" alt="Profile picture">
+                </div>
+                <div class="col-md-6 name-pic">
                 <h1 class="text-uppercase text-center  animated rubberBand"><strong>Prakash Rai</strong></h1>
-                Status: <progress min="0" max="100" value="35"> 
-                </progress>
-              </div>
+                </div>
+       </div>
+
               <article>
                 <div class="section home" id="home">
                   <div class="dynamic-text" id="home-text">
@@ -62,181 +39,98 @@
               </div>
             </article>
     </div>
-     <!--==========================================Education Container===================================================-->
-<!--   <div class="container-fluid" id="education">
-    <div class="row" id="edu-wrapper">
-      <div class="col-sm-4 slide-down-1" style=" ">  
-      <div id="accordion" role="tablist" aria-multiselectable="true">
-      <div class="card">
-        <div class="card-header" role="tab" id="headingOne">
-          <h5 class="mb-0">
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              <p class="text-center edu-div">Education</p>
-              </a>
-          </h5>
-        </div>  
-        <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
-          <div class="card-block">      
-            <li class="list-group-item">
-                <p><strong>Bachelor of Science in Information Technology</strong><br> 
-                Kennesaw State University, Marietta, Georgia<br></p>    
-                 <p><strong>Front-End Web Developer Nanodegree Program</strong><br> 
-                    Udacity, Currently enrolled <br></p>             
-            </li>
-          </div>
-        </div>
-      </div>
-    </div><!---->
-  <!-- </div>/slide-down-1 -->
-    <!-- <div class="col-sm-4 slide-down-2" style=" ">
-      <div id="accordion" role="tablist" aria-multiselectable="true">
-      <div class="card">
-        <div class="card-header" role="tab" id="headingTwo">
-          <h5 class="mb-0">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              <p class="text-center edu-div">Skills</p>
-            </a>
-          </h5>
-        </div>
-        <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
-          <div class="card-block">
-             <li class="list-group-item">
-                        <p>HTML5, CSS3, JavaScript, Java, C#, PHP, MySQL, Visual Basic, Google APIs , JSON, XML, Wireshark, Linux/Unix, Kali Linux, Oracle VM, WordPress, Photoshop</p>
-              </li>
-          </div>
-        </div>
-      </div>
-    </div> -->
-   <!-- </div>slide-down-2 -->
-  <!-- <div class="col-sm-4 slide-down-3" style=" ">
-    <div id="accordion" role="tablist" aria-multiselectable="true">
-            <div class="card">
-              <div class="card-header" role="tab" id="headingThree">
-                <h5 class="mb-0">
-                  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    <p class="text-center edu-div">Experiences</p>
-                  </a>
-                </h5>
-              </div>
-              <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
-                <div class="card-block">
-                <ul class="list-group">
-                    <li class="list-group-item">
-                      <ul>
-                       <strong>The Flag Company, Inc., Acworth,GA</strong><br>
-                       <em>Web Developer</em><br>
-                       March - April 2017  
-                       <li>Developed a user responsive website</li>
-                       <li>Assure that all user input is validated before submitting to back-end</li>
-                      </ul>
-                      <ul><br>
-                       <strong>Buddha Group Inc., Marietta,GA</strong><br>
-                       <em>Owner/Manager</em><br>
-                       Nov 2008- July 2015 
-                       <li>Managed daily store operations, monitor and order inventory, cash flow and customer service.</li>
-                        <li>Trained all new employees in compliance with state laws and rules of Georgia lottery and Slot machine. </li> 
-                        <li>Inventoried stock and re-orders and inspected the deliveries, handled all sale transaction and prepared sale report daily.</li>  
-                      </ul>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div> -->
-        <!-- </div>slide-down-3 -->
-    <!-- </div>/row close -->
-  <!-- </div>container-m-3 --> 
-
-  <div class="container-fluid" id="skills">
-<div class="skills-col">
+  <!--=========================================Skill Page=====================================================--> 
+  <div class="container-fluid" id="skill-page">
+    <div class="skills-col">
       <div class="skill-sec">
         <div class="col wow bounceInUp" data-wow-duration="1.5s">
         <h3>Software and Web Development</h3>
-          <div class="html">
-            <img class="skill-img" src="images/icons/html.jpg" alt="HyperText Markup Language 5">
-            <p>HTML</p>
-          </div>
-          <div class="css">
-            <img class="skill-img" src="images/icons/css.jpg" alt="Cascading Style Sheets 3">
-            <p>CSS</p>
-          </div>
-          <div class="js">
-            <img class="skill-img" src="images/icons/js.jpg" alt="JavaScript">
-            <p>JavaScript</p>
-          </div>
-          <div class="php">
-            <img class="skill-img" src="images/icons/php.jpg" alt="Hypertext Preprocessor">
-            <p>PHP</p>
-          </div>
-          <div class="Java">
-            <img class="skill-img" src="images/icons/php.jpg" alt="Hypertext Preprocessor">
-            <p>Java</p>
-          </div><br>
-          <div class="C#">
-            <img class="skill-img" src="images/icons/php.jpg" alt="Hypertext Preprocessor">
-            <p>C#</p>
-          </div>
-          <div class="Python">
-            <img class="skill-img" src="images/icons/php.jpg" alt="Hypertext Preprocessor">
-            <p>Python</p>
-          </div>
-           <div class="Sql">
-            <img class="skill-img" src="images/icons/php.jpg" alt="Hypertext Preprocessor">
-            <p>SQL</p>
-          </div>
+              <div class="html">
+                <img class="skill-img" src="images/icons/html.jpg" alt="HyperText Markup Language 5">
+                <p>HTML</p>
+              </div>
+              <div class="css">
+                <img class="skill-img" src="images/icons/css.jpg" alt="Cascading Style Sheets 3">
+                <p>CSS</p>
+              </div>
+              <div class="js">
+                <img class="skill-img" src="images/icons/js.jpg" alt="JavaScript">
+                <p>JavaScript</p>
+              </div>
+              <div class="php">
+                <img class="skill-img" src="images/icons/php.jpg" alt="Hypertext Preprocessor">
+                <p>PHP</p>
+              </div>
+              <div class="Java">
+                <img class="skill-img" src="images/icons/php.jpg" alt="Hypertext Preprocessor">
+                <p>Java</p>
+              </div><br>
+              <div class="C#">
+                <img class="skill-img" src="images/icons/php.jpg" alt="Hypertext Preprocessor">
+                <p>C#</p>
+              </div>
+              <div class="Python">
+                <img class="skill-img" src="images/icons/php.jpg" alt="Hypertext Preprocessor">
+                <p>Python</p>
+              </div>
+               <div class="Sql">
+                <img class="skill-img" src="images/icons/php.jpg" alt="Hypertext Preprocessor">
+                <p>SQL</p>
+              </div>
         </div>
         <br>
         <div class="col wow bounceInUp" data-wow-delay=".4s" data-wow-duration="1.5s">
           <h3>Framework & Library</h3>
-          <div class="bootstrap">
-            <img class="skill-img" src="images/icons/bootstrap.jpg" alt="Bootstrap Framework">
-            <p>Bootstrap</p>
-          </div>
-          <div class="jquery">
-            <img class="skill-img" src="images/icons/jquery.jpg" alt="Jquery Library">
-            <p>Jquery</p>
-          </div>
+              <div class="bootstrap">
+                <img class="skill-img" src="images/icons/bootstrap.jpg" alt="Bootstrap Framework">
+                <p>Bootstrap</p>
+              </div>
+              <div class="jquery">
+                <img class="skill-img" src="images/icons/jquery.jpg" alt="Jquery Library">
+                <p>Jquery</p>
+              </div>
         </div>
   
         <div class="col wow bounceInUp" data-wow-delay=".8s" data-wow-duration="1.5s">
         <h3>Others</h3>
-          <div class="sass">
-            <img class="skill-img" src="images/icons/sass.jpg" alt="C++">
-            <p>SASS</p>
-          </div>
-          <div class="photoshop">
-            <img class="skill-img" src="images/icons/photoshop.jpg" alt="Adobe Photoshop">
-            <p>Photoshop</p>
-          </div>
-          <div class="git">
-            <img class="skill-img" src="images/icons/git.jpg" alt="Git">
-            <p>Git</p>
-          </div>
-          <div class="github">
-            <img class="skill-img" src="images/icons/github.jpg" alt="GitHub">
-            <p>GitHub</p>
-          </div>
-        <div class="windows">
-            <img class="skill-img" src="images/icons/windows.jpg" alt="Windows OS">
-            <p>Windows</p>
-          </div>
-          <div class="linux">
-            <img class="skill-img" src="images/icons/linux.jpg" alt="Linux OS - Kali Linux">
-            <p>Linux</p>
-          </div>
+              <div class="sass">
+                <img class="skill-img" src="images/icons/sass.jpg" alt="C++">
+                <p>SASS</p>
+              </div>
+              <div class="photoshop">
+                <img class="skill-img" src="images/icons/photoshop.jpg" alt="Adobe Photoshop">
+                <p>Photoshop</p>
+              </div>
+              <div class="git">
+                <img class="skill-img" src="images/icons/git.jpg" alt="Git">
+                <p>Git</p>
+              </div>
+              <div class="github">
+                <img class="skill-img" src="images/icons/github.jpg" alt="GitHub">
+                <p>GitHub</p>
+              </div>
+            <div class="windows">
+                <img class="skill-img" src="images/icons/windows.jpg" alt="Windows OS">
+                <p>Windows</p>
+              </div>
+              <div class="linux">
+                <img class="skill-img" src="images/icons/linux.jpg" alt="Linux OS - Kali Linux">
+                <p>Linux</p>
+              </div>
         </div>
       </div>
     </div>
   </div>
-  <!--============================Project container===============================================-->
-    <div class="container-fluid" id="project">
+  <!--=========================================Project Page=====================================================--> 
+
+     <div class="container-fluid" id="project">
       <div class="row">
         <div class="col-md-12 text-center text-uppercase">
           <h2>Projects</h2>
         </div>
       </div>
       <div class="row div-project clearfix">
-          <div class="col-md-4">
+          <div class="col-md-4"> 
               <div class="thumbnail photo-container">
                   <div class = "photo">
                      <img class="img-responsive side-a animated bounceInLeft" id="project-image" src="images/milestone3.JPG" alt=" Book Search">
@@ -271,88 +165,13 @@
                         </div>
                </div>
             </div>
-              <!-- <p class="text-center"><a href="http://www.raiprakash.com/ksu_webdev/termproject.html" target="_blank">Movie Search</a></p> -->
           </div>
       </div>
-      <!--==========================================2nd Row==========================================================================-->
-<!--         <div class="row div-project">
-          <div class="col-md-4">
-                <div class="thumbnail">
-                    <div class = "photo">
-                        <img class="img-responsive" id="project-image" src="images/stevejobs.JPG" alt=" Steve Jobs">
-                    </div>
-                </div>
-                     <p class="text-center"><a href="https://codepen.io/prai/full/gWVOzO/" target="_blank">Tribute Page - Steve Jobs</a></p>
-          </div>
-          <div class="col-md-4">
-           <div class="thumbnail">
-            <img class="img-responsive" id="project-image" src="images/rsvp.JPG" alt=" RSVP">
-             </div>
-             <p class="text-center"><a href="https://raisking.github.io/RSVP-App/" target="_blank">RSVP App</a></p> 
-          </div>
-                <div class="col-md-4 text-center">  
-          </div> 
-          <div class="col-md-4">
-           <div class="thumbnail">
-              <img src="http://via.placeholder.com/300x200" id="project-image" class="img-responsive" alt="placeholder">
-          </div>
-           <p class="text-center"><a href="#" target="_blank">Comming Soon!</a></p>
-          </div>
-      </div> -->
     </div> <!--end container-->
 
-<!--===========================================3D Animation=============================================================-->
-<div class="container-fluid" id="project">
-    <div class = "row" id="animation-div">
-        <div class= "col-md-4">
-              <div class="cube-container">
-                      <div class="photo-cube">
-                        <img class="front" src="http://wallpapercave.com/wp/k9ei6p7.jpg" alt="">
-                        <div class="back photo-describe">
-                          <h4>Steve Jobs</h4>
-                          <p>Tribute page - Steve Jobs <br>1955 - 2011</p>
-                          <a href="https://codepen.io/prai/full/gWVOzO/" target="_blank" class="button" id="ani-btn">Steve Jobs</a>
-                        </div>
-                        <img class="left" src="https://static3.businessinsider.com/image/5384cbf0eab8ea9c64f4b401/a-young-steve-jobs-smelled-so-bad-he-had-to-be-put-on-the-night-shift-at-atari.jpg" alt="">
-                        <img class="right" src="http://img.theepochtimes.com/n3/eet-content/uploads/2013/10/steve-Jobs-72959782-676x450.jpg" alt="">
+  <!--=========================================Service Page=====================================================--> 
 
-                      </div>
-                </div>  
-          </div>
-         <div class= "col-md-4">
-              <div class="cube-container">
-                      <div class="photo-cube">
-                        <img class="front" src="images/rsvp-front.JPG" alt="">
-                        <div class="back photo-describe">
-                          <h4>RSVP App</h4>
-                          <p>Keep track of your guest</p>
-                          <a href="https://raisking.github.io/RSVP-App/" target="_blank" class="button" id="ani-btn">RSVP App</a>
-                        </div>
-                        <img class="left" src="images/rsvp-side.JPG" alt="">
-                        <img class="right" src="images/rsvp-edit.JPG" alt="">
-
-                      </div>
-                </div>  
-          </div>
-         <div class= "col-md-4">
-              <div class="cube-container">
-                      <div class="photo-cube">
-                        <img class="front" src="http://via.placeholder.com/220x200" alt="">
-                        <div class="back photo-describe">
-                          <h4>Comming Soon!</h4>
-                          <p></p>
-                          <a href="#" class="button" target="_blank" id="ani-btn">Steve Jobs</a>
-                        </div>
-                        <img class="left" src="http://via.placeholder.com/220x200" alt="">
-                        <img class="right" src="http://via.placeholder.com/220x200" alt="">
-
-                      </div>
-                </div>  
-          </div>
-      </div>  
-  </div>
-   <!--=========================================Information Container====================================================-->
-  <div class="container-fluid flex-wrapper">
+<div class="container-fluid" id="service-div">
   <div class="container">
      <div class="row">
                     <div class="col-sm-4 flex-box-info">
@@ -370,8 +189,14 @@
           </div>
         </div>
   </div><!--container end-->
-  <!--=================================================Footer Container==========================================-->
-<div class="container-fluid" id="social-media-container">
+  <!--=========================================Service Page=====================================================--> 
+
+<div class="container-fluid" id="contact-div">
+  <h2>Contact Me</h2>
+ 
+</div><!--container end-->
+  <!--=================================================Social Media Container==========================================-->
+<div class="container-fluid" id="media-div">
   <div class="row">
     <div class="col-md-3 flex-box">
       <h1>Facebook</h1>
@@ -387,6 +212,9 @@
     </div>
     </div>
 </div>
+
+
+  <!--=================================================Footer Container==========================================-->
 
 
   <div class="container-fluid" id="footer-div">
@@ -409,9 +237,8 @@
       </div> 
     </div>
 
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-      <script src="js/dim.js"></script> 
-     <script src="js/swing.js"></script>    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/main.js"></script>  
   </body>
 </html>
