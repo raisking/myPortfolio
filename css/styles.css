@@ -1,3 +1,6 @@
+* {
+	box-sizing: border-box;
+}
 body {
   font-family: "Poppins", sans-serif;
   font-family: "Cabin", sans-serif;
@@ -11,7 +14,7 @@ body {
 }
 #header-div{
 	z-index: auto;
-	background-color: #ccc;
+		background-color: #82abed;
 	color: #fff;
 	text-align: right;
 	transition: 1s;
@@ -173,22 +176,22 @@ ul.colors li {
     transition: all 0.4s ease;
 }
 ul.colors li:nth-child(1) {
-    background: #f39c12;
+    background: white;
 }
 ul.colors li:nth-child(2) {
-    background: #2ecc71;
+    background: black;
 }
 ul.colors li:nth-child(3) {
-    background: #3498db;
+    background: green;
 }
 ul.colors li:nth-child(4) {
-    background: #e74c3c;
+    background: red;
 }
 ul.colors li:nth-child(5) {
-    background: #9b59b6;
+    background: blue;
 }
 ul.colors li:nth-child(6) {
-    background: #1abc9c;
+    background: orange;
 }
 ul.colors li:hover {
     /*height: 50px;*/
@@ -208,7 +211,7 @@ ul.colors li:hover {
 	width: 60px;
 }
 #name-div{
-	background-color: white;
+	background-color: #82abed;
 }
 .name ul li{
 	display: inline-block;
@@ -220,5 +223,9 @@ ul.colors li:hover {
 .name ul li: hover{
 	font-size: 20px;
 
+
+}
+#logo{
+	height: 60px;
 
 }
