@@ -10,11 +10,13 @@ body {
   text-decoration: none;
 }
 #header-div{
+	z-index: auto;
 	background-color: #ccc;
 	color: #fff;
 	text-align: right;
 	transition: 1s;
-	/*z-index: 1000;*/
+	padding-top: 10px;
+
 }
 .is-sticky #header-div{
 	background-color: black;
@@ -50,7 +52,7 @@ body {
 #intro-div{
 	background-color: #82abed;
 	/*opacity: 0.9;*/
-	height: 500px;
+	/*height: 500px;*/
 }
 #skill-page{
 	background-color: #fff;
@@ -109,9 +111,14 @@ body {
 	padding-top: 50px;
 
 }
+.name-pic h1{
+	font-size: 5rem;
+
+}
 #btn-resume{
 	padding: 10px;
 }
+
 #project-image{
 	height: 250px;
 	width:400px;
@@ -135,13 +142,15 @@ body {
 }
 #arrow-div{
 	background-color: #82abed;
-}
-#fa-arrow{
-	margin: auto;
+	align-items: center;
 }
 
+.i-arrow{
+	/*border: 1px solid red;*/
+	width: 40px;
+	margin: 0 auto;
 
-
+}
 
 ul.colors {
     position: absolute;
@@ -186,4 +195,30 @@ ul.colors li:hover {
 }
 .social-icon-wrapper{
 	padding-top: 10px;
+}
+.social-icon-wrapper li p{
+	color: blue;
+	vertical-align: top;
+}
+#home-text p{
+	font-size: 2rem;
+}
+
+.skill-img{
+	width: 60px;
+}
+#name-div{
+	background-color: white;
+}
+.name ul li{
+	display: inline-block;
+	font-size: 6rem;
+	letter-spacing: 20px;
+	align-items: center;
+
+}
+.name ul li: hover{
+	font-size: 20px;
+
+
 }
