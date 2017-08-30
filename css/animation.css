@@ -21,11 +21,14 @@
   border-bottom: 4px solid #ffffff;
   padding: 6px 0; 
 }
+.name{
+	color: #fff;
+}
 .name ul li:nth-child(1) h1{
 	/*font-weight: 300;*/
-	transform: scale(1.9);
+	transform: scale(1.2);
 }
 .name ul li:nth-child(10) h1{
 	/*font-weight: 300;*/
-	transform: scale(1.9);
+	transform: scale(1.2);
 }
