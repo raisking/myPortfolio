@@ -643,9 +643,7 @@ hr{
 }
 
 #md-div p{
-		padding-top: 60px;
-		width: 80%;
-		/*text-align: center;*/
+		padding-top: 20px;
 		font-size: 1.3em;
 		margin: auto;
 		font-weight: bold;
@@ -675,7 +673,7 @@ hr{
 	color: #4717F6;
 	font-size: 4em;
 	font-weight: bold;
-	text-shadow: 2px 15px rgb(255, 255,255);
+	text-shadow: 1px 10px rgb(255, 255,255);
 
 }
 .jeopardy{
