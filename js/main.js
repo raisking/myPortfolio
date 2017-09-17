@@ -1,5 +1,4 @@
 $("#header-div").sticky();
-
 var randomQuote = [ 
     "\"Always do your best. What you plant now, you will harvest later. - Og Mandino\"",
     "\"The secret of getting ahead is getting started. - Mark Twain\"",
@@ -17,3 +16,10 @@ var randomQuote = [
 ];
 var random = Math.floor(Math.random() * randomQuote.length);
 document.getElementById('random-quote').innerHTML = randomQuote[random];    
+$(document).ready(function(){
+    $('#random-quote').hover(function(){
+        $(this).css('color','red');
+    }, function(){
+        $(this).css('color', 'black');
+    })
+})

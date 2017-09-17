@@ -80,7 +80,7 @@ body {
 }
 #skill-page, #mySkills{
 	background-color: #fff;
-	opacity: 0.7;
+	opacity: 0.9;
 
 }
 .skill-sec div {
@@ -438,12 +438,12 @@ fieldset {
 
 #photo-transition{
 	/* z-index: -1111; */
-	background-color: #fff;
+	background-color: #ccc;
   	background-position: center;
   	background-repeat: no-repeat;
   	background-size: cover;
 	padding-top: 29px;
-	opacity: .7;
+	/* opacity: .7; */
 }
 #photo-transition h1{
 	margin-top: 30px;
@@ -623,7 +623,7 @@ hr{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: .7;
+  opacity: .9;
   height: 220px;
 }
 
@@ -649,14 +649,16 @@ hr{
 
 /*-----Recent project div----------*/
 #recent-project{
-	background-color: #fff;
-	opacity: .7;
+	background-color: #ccc;
+	/* opacity: .9; */
 }
 #recent-project h2{
 	text-align: center;
 }
 #random-quote{
-	color: red;
+	color: #4717F6;
+	font-size: 2em;
+	font-weight: bold;
 }
 /* ================================= 
   Media Queries
