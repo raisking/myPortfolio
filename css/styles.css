@@ -191,7 +191,7 @@ body {
 	margin: 0 auto;
 
 }
-
+/*border colors*/
 ul.colors {
     position: absolute;
     /*bottom: 0;*/
@@ -201,7 +201,7 @@ ul.colors {
     height: 10px;
     font-size: 0;
     list-style-type: none;
-    background-color: #1abc9c;
+    background-color: red;
 }
 ul.colors li {
     display: inline-block;
@@ -230,6 +230,7 @@ ul.colors li:nth-child(5) {
 ul.colors li:nth-child(6) {
     background: orange;
 }
+
 ul.colors li:hover {
     /*height: 50px;*/
 }
@@ -289,14 +290,25 @@ ul.colors li:hover {
 	text-transform: uppercase;
 	text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.4); 
 }
-.abt h1{
+/* .abt h1{
 	font-size: 5em;
 	letter-spacing: 15px;
 	text-transform: uppercase;
 	font-weight: bolder;
-	text-shadow: 2px 2px rgb(255, 253, 204);
+	text-shadow: 5px 5	px rgb(255, 255,255);
+} */
+.myname li {
+	list-style: none;
+	float: left;
+	font-size: 4em;
+	padding-left: 20px;
 }
-
+.myname{
+	display: inline-block;
+}
+.space{
+	padding-left: 20px;
+}
 .logo-circle{
 	background-color: white;
 }
