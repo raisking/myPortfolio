@@ -665,6 +665,7 @@ hr{
 /*-----Recent project div----------*/
 #recent-project{
 	background-color: #ccc;
+	/* margin: 0 auto; */
 	/* opacity: .9; */
 }
 #recent-project h2{
@@ -684,7 +685,8 @@ hr{
 	
 }
 .recentProject{
-	align-content: center;
+	position: relative;
+	left: 100px;
 }
 .btn-jeopardy{
 	align-content: center;
