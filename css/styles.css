@@ -621,7 +621,7 @@ hr{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 300px;
+  height: 220px;
 }
 
 #md-div p{
@@ -644,8 +644,13 @@ hr{
 	width: 400px;
 }
 
-
-
+/*-----Recent project div----------*/
+#recent-project{
+	background-color: #fff;
+}
+#recent-project h2{
+	text-align: center;
+}
 
 /* ================================= 
   Media Queries
