@@ -2,6 +2,7 @@
 	box-sizing: border-box;
 	text-decoration: none;
 	text-decoration-style: none;
+	list-style: none;
 
 }
 a:hover{
@@ -300,17 +301,19 @@ ul.colors li:hover {
 .myname li {
 	list-style: none;
 	float: left;
-	font-size: 4em;
+	font-size: 6em;
+	font-weight: bold;
 	padding-left: 20px;
+	text-shadow: 5px 5px rgb(255, 255,255);
 }
 .myname{
 	display: inline-block;
 }
-.space{
-	padding-left: 20px;
+.myname li:nth-child(8){
+	margin-left: 20px;
 }
 .logo-circle{
-	background-color: white;
+	background-c	olor: white;
 }
 .logo-circle h1{
 	text-align: center;
@@ -669,9 +672,29 @@ hr{
 }
 #random-quote{
 	color: #4717F6;
-	font-size: 2em;
+	font-size: 4em;
 	font-weight: bold;
+	text-shadow: 2px 15px rgb(255, 255,255);
+
 }
+.jeopardy{
+	/* border: 1px solid red; */
+	margin-left: 30px;
+	padding-bottom: 10px;	
+	
+}
+.recentProject{
+	align-content: center;
+}
+.btn-jeopardy{
+	align-content: center;
+}
+.des-jeopardy{
+	background-color: #fff;
+	padding: 20px;
+	height: 150	px;	
+}
+
 /* ================================= 
   Media Queries
 ==================================== */
