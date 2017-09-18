@@ -128,7 +128,7 @@
               .css('position', 'fixed')
               .css('top', newTop)
               .css('bottom', '')
-              .css('z-index', s.zIndex);
+              .css('z-index', 1);
           }
         }
       }

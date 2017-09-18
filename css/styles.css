@@ -23,20 +23,19 @@ body {
 	text-align: right;
 	transition: 1s;
 	padding-top: 10px;
+		
 }
+
 #header-div ul li a{
 	color: #000;
 }
 .is-sticky #header-div{
 	background-color: #1C2331;
-	height: 60px;
-	z-index: 10;
+	height: 70px;
 
 }
 .is-sticky #header-div ul li a{
 	color: #fff;
-	z-index: 10;
-
 }
 #cover-div{
 	background-color: white;
@@ -71,7 +70,7 @@ body {
 	color: #000;
 	padding-bottom: 40px;
 	font-family: 'Poppins', sans-serif;
-	z-index: -22;
+	
 	/*opacity: 0.9;*/
 	/*height: 500px;*/
 }
