@@ -301,7 +301,7 @@ ul.colors li:hover {
 .myname li {
 	list-style: none;
 	float: left;
-	font-size: 6em;
+	font-size: 4em;
 	font-weight: bold;
 	padding-left: 20px;
 	text-shadow: 5px 5px rgb(255, 255,255);
