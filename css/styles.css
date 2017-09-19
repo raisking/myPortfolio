@@ -3,14 +3,12 @@
 	text-decoration: none;
 	text-decoration-style: none;
 	list-style: none;
-
 }
 a{
 	color: rgb(0, 0, 102);
 }
 a:hover{
-	text-decoration: none;
-	
+	text-decoration: none;	
 }
 body {
   font-family: "Poppins", sans-serif;
@@ -22,7 +20,7 @@ body {
   text-decoration: none;
 }
 #header-div{
-	background-color: #558C89;
+	background-color: #C2B9B0;
 	color: #000;
 	text-align: right;
 	transition: 1s;
@@ -70,7 +68,7 @@ body {
 	margin: 0 auto;
 }
 #intro-div{
-	background-color: #558C89;
+	background-color: #C2B9B0;
 	color: #000;
 	padding-bottom: 40px;
 	font-family: 'Poppins', sans-serif;
@@ -756,6 +754,10 @@ hr{
 	.myname li {
 		font-size: 1.3em;
 	}
+	/* .link-1{
+		justify-content: center;
+		
+	} */
 
 }
 
