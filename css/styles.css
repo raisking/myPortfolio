@@ -20,7 +20,7 @@ body {
   text-decoration: none;
 }
 #header-div{
-	background-color: #C2B9B0;
+	background-color: #f2f2f2;
 	color: #000;
 	text-align: right;
 	transition: 1s;
@@ -53,7 +53,7 @@ body {
 	text-decoration: none;
 }
 #resume-div{
-	background-color: #2BBBAD;
+	background-color: #f2f2f2;
 }
 #resume-div ul li{
 	display: inline-block;
@@ -68,7 +68,7 @@ body {
 	margin: 0 auto;
 }
 #intro-div{
-	background-color: #C2B9B0;
+	background-color: #f2f2f2;
 	color: #000;
 	padding-bottom: 40px;
 	font-family: 'Poppins', sans-serif;
@@ -105,15 +105,15 @@ body {
 	justify-content: center;
 }
 #media-div{
-	background-color: #2BBBAD;
+	background-color: #f2f2f2;
 	border-bottom: 1px solid #fff;
 
 }
 #footer-div{
-	background-color: #558C89;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+	background-color: #f2f2f2;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
   /*background-attachment: fixed;*/
 }
 #footer-div p{
@@ -634,7 +634,7 @@ hr{
 }
 #md-div{
   /* background-image: url(../images/bluebg.png); */
-  background-color: #558C89;
+  background-color: #8fc1e3;
   /* background-position: center;
   background-repeat: no-repeat;
   background-size: cover; */
@@ -642,7 +642,7 @@ hr{
   height: auto;
 }
 
-#md-div p{
+#md-div p{	
 		padding-top: 20px;
 		font-size: 1.3em;
 		margin: auto;
@@ -662,7 +662,7 @@ hr{
 
 /*-----Recent project div----------*/
 #recent-project{
-	background-color: #DFE2DB;
+	background-color: #f2f2f2;
 	/* margin: 0 auto;/
 	/* opacity: .9; */
 }
