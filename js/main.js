@@ -11,15 +11,16 @@ var randomQuote = [
     "\"Desire is the starting point of all achievement, not a hope, not a wish, but a keen pulsating desire which transcends everything.– Napoleon Hill\"",
     "\"Strength does not come from physical capacity. It comes from an indomitable will. - Mahatma Gandhi\"",
     "\"It does not matter how slowly you go as long as you do not stop. - Confucius\"",
-    "\"It always seems impossible until it's done. - Nelson Mandela\""
+    "\"It always seems impossible until it's done. - Nelson Mandela\"",
+    "\" “You just can’t beat the person who never gives up.” —Babe Ruth\""
    
 ];
 var random = Math.floor(Math.random() * randomQuote.length);
 document.getElementById('random-quote').innerHTML = randomQuote[random];    
-$(document).ready(function(){
-    $('#random-quote').hover(function(){
-        $(this).css('color','red');
-    }, function(){
-        $(this).css('color', 'black');
-    })
-})
+// $(document).ready(function(){
+//     $('#random-quote').hover(function(){
+//         $(this).css('color','red');
+//     }, function(){
+//         $(this).css('color', 'black');
+//     })
+// })
