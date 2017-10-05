@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 	text-decoration: none;
 	text-decoration-style: none;
-	list-style: none;
+	list-style: none;	
 }
 a{
 	color: rgb(0, 0, 102);
@@ -126,9 +126,6 @@ body {
 	padding: 25px;
 	border-radius: 10px;
 
-}
-#contact-div{
-	/*background-color: #ccc;*/
 }
 
 #home{
@@ -696,7 +693,21 @@ hr{
 	padding: 20px;
 	height: 150	px;	
 }
-
+.des-jeopardy-top{
+	background-color: #000;
+	color: #fff;
+	padding: 1px 0;
+	height: auto;	
+}
+.img-container{
+	height: 250px;
+	width: auto;
+	/* border: 1px solid red;	 */
+}
+.img-container:hover{
+	/* transition-delay: 3s; */
+	opacity: .7;		
+}
 /* ================================= 
   Media Queries
 ==================================== */
