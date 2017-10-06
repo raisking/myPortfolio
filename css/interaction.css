@@ -1,25 +1,4 @@
-/* ================================= 
-  Photo 3D Transforms & Transitions
-==================================== */
-.photo-container	 {
-perspective: 700px;
-}
-.photo {
-	position: relative;
-	line-height: 0;
-  	transition: transform 1s cubic-bezier(.55, -.62, .27, 1.2);
-  	transform-style: preserve-3d;
-}
-.photo:hover {
-  transform: rotateY(-180deg);
-}
-.side-a,
-.side-b{
-  backface-visibility: hidden;
-}
-.side-b{
-  transform: rotateY(180deg);
-}
+
 /* ================================= 
   Button Transitions
 ==================================== */
@@ -162,11 +141,11 @@ perspective: 700px;
 
 /* ---- Animation text ---- */
 
-/*.dynamic-text{
+/* .dynamic-text{
   font-weight: bold;
   color: #000;
   word-break: break-word;
-}*/
+} */
 .dynamic-text:after{
   /*content: '.';*/
   font-weight: bold;
@@ -186,3 +165,102 @@ perspective: 700px;
   color: #000;
   word-break: break-word;
 }
+
+
+.animated.flipOutX,
+.animated.flipOutY,
+.animated.bounceIn,
+.animated.bounceOut {
+  animation-duration: .75s;
+}
+
+.link-1 {	
+  transition: 0.3s ease;
+  color: #ffffff;
+  font-size: 1.5rem;
+  text-decoration: none;
+  border-top: px solid #3fa46a;
+  border-bottom: px solid #3fa46a;
+  padding: 20px 0;
+}
+.link-1:hover {
+  border-top: 4px solid #ff0000;
+  border-bottom: 4px solid #ff0000;
+  padding: 6px 0; 
+}
+.name{
+	color: #fff;
+}
+.name ul li:nth-child(1) h1{
+	/*font-weight: 300;*/
+	transform: scale(1.2);
+}
+.name ul li:nth-child(10) h1{
+	/*font-weight: 300;*/
+	transform: scale(1.2);
+}
+
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 0) and (max-width: 768px) {
+	.container-a {
+		padding: 0 1.225em 2.5em;
+	}
+}
+@media (min-width: 769px) {
+	.container-a {
+		padding: 0 2.25em 2em;
+	}
+	.photo-container {
+		width: 48%;
+		float: left;
+		margin-left: 4%;
+
+	}
+
+}
+@media (min-width: 769px) and (max-width: 1024px) { 
+	.paddinghoto-container:nth-child(2n+1) {
+		margin-left: 0;
+		clear: left;
+	}
+}
+@media (min-width: 1025px) { 
+	.photo-container {
+		width: 30.63973064%;
+	}
+	.photo-container:nth-child(3n+1) {
+		margin-left: 0;
+		clear: left;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .social-media-wrapper
+    		.btn-info{
+    	justify-content: center;
+
+    }
+    #media-div{
+    	background-color: #0099CC;
+    }
+    .social-icon-wrapper{
+    		padding-left: 100px;
+    }
+    #btn-resume{
+    	padding-left: 70px;
+	}
+	.myname li {
+		font-size: 1.3em;
+	}
+	#social-media-icon {
+        display: none;
+    }
+
+}
+
