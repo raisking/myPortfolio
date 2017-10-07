@@ -104,7 +104,7 @@ body {
     margin: auto;
     text-align: center;
 }
-#mySkills h1{
+#mySkills h2{
 	text-transform: uppercase;
 	font-weight: bolder;	
 }
@@ -641,8 +641,9 @@ hr{
   -vendor-animation-iteration-count: infinite;
 }
 #md-div{
-background-color: #ccc;
-  height: auto;
+
+	background-color: #ccc;
+  	height: auto;
 }
 
 #md-div p{	
