@@ -213,7 +213,7 @@ ul.colors {
     height: 10px;
     font-size: 0;
     list-style-type: none;
-    background-color: red;
+    background-color: black;
 }
 ul.colors li {
     display: inline-block;
@@ -225,22 +225,22 @@ ul.colors li {
     transition: all 0.4s ease;
 }
 ul.colors li:nth-child(1) {
-    background: purple;
-}
-ul.colors li:nth-child(2) {
     background: black;
 }
+ul.colors li:nth-child(2) {
+    background: #0CF;
+}
 ul.colors li:nth-child(3) {
-    background: green;
+    background: #000;
 }
 ul.colors li:nth-child(4) {
-    background: red;
+    background: #fff;
 }
 ul.colors li:nth-child(5) {
-    background: blue;
+    background: #000;
 }
 ul.colors li:nth-child(6) {
-    background: orange;
+    background: #0CF;
 }
 .social-icon-wrapper{
 	padding-top: 10px;
@@ -684,9 +684,11 @@ hr{
 	
 }
 #recent-project{
-	background-color: #f2f2f2;
+	background-color: #ccc;
 	padding-top: 10px;
+	
 }
+
 #random-quote{
 	color: #000;
 	font-size: 2em;
@@ -781,4 +783,9 @@ hr{
 .project-icons img{
 	width: 20px;
     
+}
+.btn{
+	border: 0;
+	border-radius: 0;
+	box-shadow: 0 8px 6px -6px black;
 }
