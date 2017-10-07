@@ -17,10 +17,18 @@ var randomQuote = [
 ];
 var random = Math.floor(Math.random() * randomQuote.length);
 document.getElementById('random-quote').innerHTML = randomQuote[random];    
-// $(document).ready(function(){
-//     $('#random-quote').hover(function(){
-//         $(this).css('color','red');
-//     }, function(){
-//         $(this).css('color', 'black');
-//     })
-// })
+
+$(document).ready(function(){
+    $('#random-quote').hover(function(){
+        $(this).css('color','red');
+    }, function(){
+        $(this).css('color', 'black');
+    })
+})
+$(document).on('click', 'a[href^="#recent-project"],a[href^="#resume-div"], a[href^="#container-footer"]', function (event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 1000);
+});

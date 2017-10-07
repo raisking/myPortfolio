@@ -13,26 +13,44 @@
   <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link rel="stylesheet" type="text/css" href="css/interaction.css">
-
 </head>
 
 <body>
   <div class="container-fluid" id="resume-div">
-    <div class="row">
-      <div class="col-md-6">
-        <ul class="social-icon-wrapper">
-          <li><a href="https://www.linkedin.com/in/prai007/" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
-          <li><a href="https://github.com/raisking" target="_blank"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></i></a></li>
-          <li><a href="https://www.freecodecamp.com/raisking" target="_blank"><i class="fa fa-free-code-camp fa-2x" aria-hidden="true"></i></i></i></a></li>
-        </ul>
-      </div>
-      <div class="col-md-6">
-        <ul class="nav navbar-nav navbar-right" id="btn-resume">
-          <button type="button" class="btn btn-success">
-            <a href="images/resume/prai_Resume.pdf" target="_blank"><span class="resume">Download Resume</span></a>
-            <i class="fa fa-hand-peace-o" aria-hidden="true"></i>
-          </button>
-        </ul>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <ul class="social-icon-wrapper">
+            <li>
+              <a href="https://www.linkedin.com/in/prai007/" target="_blank">
+                <i class="fa fa-linkedin-square fa-2x" aria-hidden="true">
+                </i>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/raisking" target="_blank">
+                <i class="fa fa-github-square fa-2x" aria-hidden="true">
+                </i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.freecodecamp.com/raisking" target="_blank">
+                <i class="fa fa-free-code-camp fa-2x" aria-hidden="true">
+                </i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <ul class="nav navbar-nav navbar-right" id="btn-resume">
+            <button type="button" class="btn btn-success">
+              <a href="images/resume/prai_Resume.pdf" target="_blank">
+                <span class="resume">Download Resume</span>
+              </a>
+              <i class="fa fa-hand-peace-o" aria-hidden="true"></i>
+            </button>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
@@ -45,7 +63,7 @@
       </div>
     </div>
   </div>
-  <div class="container-fluid" id="header-col">
+  <!-- <div class="container-fluid" id="header-col">
     <ul class="colors">
       <li></li>
       <li></li>
@@ -54,14 +72,7 @@
       <li></li>
       <li></li>
     </ul>
-  </div>
-  <div class="container-fluid" id="header-div">
-    <ul id="nav-1">
-      <li><a class="link-1" href="index.html">Home</a></li>
-      <li><a class="link-1" href="#recent-project">Project</a></li>
-      <li><a class="link-1" href="#container-footer">Contact</a></li>
-    </ul>
-  </div>
+  </div> -->
   <!--=========================================Introduction Page=====================================================-->
   <header>
     <div class="container-fluid" id="intro-div">
@@ -71,10 +82,14 @@
             <img src="images/icons/grad.png" class="img-responsive wow fadeInLeft" data-wow-delay=".4s" data-wow-duration="2.5s" id="mypic"
               alt="Profile picture">
             <h3 class="wow fadeInLeft ksu" data-wow-duration="2.8s">Kennesaw State University</h3>
-            <h4 class="wow fadeInLeft" data-wow-duration="2.8s">Marietta, GA<br> BSc Information Technology<br> 2014 - 2017</h4>
-
+            <h4 class="wow fadeInLeft" data-wow-duration="2.8s">Marietta, GA
+              <br> BSc Information Technology
+              <br> 2014 - 2017</h4>
             <h3 class="wow fadeInLeft ga" data-wow-duration="2.8s">General Assembly</h3>
-            <h4 class="wow fadeInLeft" data-wow-duration="2.8s">Atlanta, GA<br> Web Development Immersive <br> Full-Stack Software Development<br> Aug 2017 - Nov 2017</h4>
+            <h4 class="wow fadeInLeft" data-wow-duration="2.8s">Atlanta, GA
+              <br> Web Development Immersive
+              <br> Full-Stack Software Development
+              <br> Aug 2017 - Nov 2017</h4>
           </div>
           <div class="col-md-8 abt">
             <ul class="myname">
@@ -90,8 +105,9 @@
               <li class="wow fadeInRight" data-wow-delay=".4s" data-wow-duration="2.5s">I</li>
             </ul>
             <p class="des wow fadeInRight" data-wow-duration="3s">I am a full-stack developer based in Atlanta, Georgia and currently student at General Assembly. I am a fresh
-              graduate of <a href="http://www.kennesaw.edu" target="_blank">Kennesaw State University</a> seeking a challenging
-              career in which I can hone my skills, gain a quality experience, build a passion and learn new technologies.</p>
+              graduate of
+              <a href="http://www.kennesaw.edu" target="_blank">Kennesaw State University</a> seeking a challenging career in which I can hone my skills, gain a quality experience,
+              build a passion and learn new technologies.</p>
             <p class="des wow fadeInRight" data-wow-duration="3s">I specialize in web development. Through social media groups, I spend most of my time learning and helping others.
               By helping others, solving their problems, you retain or even improve your own knowledge.</p>
             <p class="des wow fadeInRight" data-wow-duration="3s">I am interested in everything related to technology. I spend my free time watching and learning online video
@@ -102,6 +118,21 @@
       </div>
     </div>
   </header>
+
+  <div class="container-fluid" id="header-div">
+    <ul id="nav-1">
+      <li>
+        <a class="link-1" href="#resume-div">Home</a>
+      </li>
+      <li>
+        <a class="link-1" href="#recent-project">Project</a>
+      </li>
+      <li>
+        <a class="link-1" href="#container-footer">Contact</a>
+      </li>
+    </ul>
+  </div>
+
   <!--=========================================Skill Page=====================================================-->
   <main>
     <div class="container-fluid logo-circle" id="mySkills">
@@ -112,13 +143,13 @@
       <div class="skills-col">
         <div class="skill-sec">
           <div class="col" data-wow-duration="2.8s">
-            <h3 class="wow fadeInLeft" data-wow-delay=".4s" data-wow-duration="2.5s">Software and Web Development</h3>
+            <h4 class="wow fadeInLeft" data-wow-delay=".4s" data-wow-duration="2.5s">Software and Web Development</h4>
             <div class="html wow fadeInRight" data-wow-delay=".4s" data-wow-duration="2.5s">
-              <img class="skill-img" src="images/icons/html.jpg" alt="HyperText Markup Language 5">
+              <img class="skill-img" src="images/icons/html.png" alt="HyperText Markup Language 5">
               <p>HTML</p>
             </div>
             <div class="css wow fadeInUp" data-wow-delay=".4s" data-wow-duration="2.5s">
-              <img class="skill-img" src="images/icons/css.jpg" alt="Cascading Style Sheets 3">
+              <img class="skill-img" src="images/icons/css3.png" alt="Cascading Style Sheets 3">
               <p>CSS</p>
             </div>
             <div class="js wow fadeInDown" data-wow-delay=".4s" data-wow-duration="2.5s">
@@ -126,7 +157,7 @@
               <p>JavaScript</p>
             </div>
             <div class="php wow fadeInRight" data-wow-delay=".4s" data-wow-duration="2.5s">
-              <img class="skill-img" src="images/icons/php.png" alt="Hypertext Preprocessor">
+              <img class="skill-img" src="images/icons/php-icon.png" alt="Hypertext Preprocessor">
               <p>PHP</p>
             </div>
             <div class="Java wow fadeInUp" data-wow-delay=".4s" data-wow-duration="2.5s">
@@ -152,7 +183,7 @@
           </div>
           <br>
           <div class="col">
-            <h3 class="wow fadeInRight" data-wow-delay=".4s" data-wow-duration="2.5s">Framework, Library & Others</h3>
+            <h4 class="wow fadeInRight" data-wow-delay=".4s" data-wow-duration="2.5s">Framework, Library & Others</h4>
             <div class="react wow fadeInLeft" data-wow-delay=".4s" data-wow-duration="2.5s">
               <img class="skill-img" src="images/react.jpg" alt="React">
               <p>React</p>
@@ -202,13 +233,14 @@
               <p>Linux</p>
             </div>
           </div>
-          <hr>
         </div>
       </div>
     </div>
     <!--=======================================Project 1=============================================-->
+   <div class="container-fluid" id="my-recent-project">
+      <h2 class="wow fadeInLeft" data-wow-delay=".4s" data-wow-duration="2.5s">My Recent Projects</h2>    
+   </div>
     <div class="container-fluid" id="recent-project">
-      <h2 class="wow fadeInLeft" data-wow-delay=".4s" data-wow-duration="2.5s">My Recent Projects</h2>
       <div class="row recentProject">
         <div class="col-md-3 jeopardy wow fadeInLeft" data-wow-delay=".4s" data-wow-duration="2.5s">
           <div class="des-jeopardy-top">
@@ -217,11 +249,18 @@
           <div class="img-container">
             <img class="img-responsive" src="images/jeopardy.png">
           </div>
+          <div class="project-icons">
+             <img src="images/icons/html-icon.png" alt="html">
+             <img src="images/icons/css-icon.png" alt="CSS">
+             <img src="images/icons/js-icon.png" alt="javascript">
+             <img src="images/icons/jquery-icon.png" alt="jQuery">
+          </div>
           <div class="des-jeopardy">
             <p>Play Jeopardy Game and Have Fun!!!</p>
             <a href="https://raisking.github.io/ga-project-one/" target="_blank">
               <button type="button" class="btn btn-success btn-jeopardy">
-               Jeopardy</button></a>
+                Jeopardy</button>
+            </a>
           </div>
         </div>
         <div class="col-md-3 jeopardy wow fadeInDown" data-wow-delay=".4s" data-wow-duration="2.5s">
@@ -231,11 +270,17 @@
           <div class="img-container">
             <img class="img-responsive" src="images/grocery-app.png">
           </div>
-
+          <div class="project-icons">
+              <img src="images/icons/html-icon.png" alt="html">
+              <img src="images/icons/css-icon.png" alt="CSS">
+              <img src="images/icons/js-icon.png" alt="javascript">
+              <img src="images/icons/jquery-icon.png" alt="jQuery">
+           </div>
           <div class="des-jeopardy">
             <p>Shopping App to list all your items before you go shopping</p>
             <a href="https://warm-badlands-85191.herokuapp.com/users/mainpage" target="_blank">
-            <button type="button" class="btn btn-success btn-jeopardy">Shopping App</button></a>
+              <button type="button" class="btn btn-success btn-jeopardy">Shopping App</button>
+            </a>
           </div>
         </div>
         <div class="col-md-3 jeopardy wow fadeInRight" data-wow-delay=".4s" data-wow-duration="2.5s">
@@ -245,6 +290,12 @@
           <div class="img-container">
             <img class="img-responsive" src="images/moviesearch.JPG">
           </div>
+          <div class="project-icons">
+              <img src="images/icons/html-icon.png" alt="html">
+              <img src="images/icons/css-icon.png" alt="CSS">
+              <img src="images/icons/js-icon.png" alt="javascript">
+              <img src="images/icons/jquery-icon.png" alt="jQuery">
+           </div>
           <div class="des-jeopardy">
             <p>Google Books, Movie API, JQuery AJAX functions, Process the service response (JSON format) and display search
               results.
@@ -252,30 +303,37 @@
             <a href="https://raisking.github.io/ksu_webproject/" target="_blank">
               <button type="button" class="btn btn-success btn-jeopardy">
                 KSU Project
-              </button></a>
+              </button>
+            </a>
           </div>
         </div>
       </div>
     </div>
 
- <!----========KSU PROJECT 2==========-->
-    <div class="container-fluid" id="recent-project"> 
+    <!----========KSU PROJECT 2==========-->
+    <div class="container-fluid" id="recent-project">
       <div class="row recentProject">
-          <div class="col-md-3 jeopardy wow fadeInRight" data-wow-delay=".4s" data-wow-duration="2.5s">
-              <div class="des-jeopardy-top">
-                <h3 class="text-center">Vandeven Nursery</h3>
-              </div>
-              <div class="img-container">
-                <img class="img-responsive" src="images/csharp.png">
-              </div>
-              <div class="des-jeopardy">
-                <p>Developed CRM system using C# application
-                  and Access database to keep track of inventory, sales, and customer information. SRS document, Gantt chart, UML diagram,
-                  database schema, and Unit Testing. </p>
-                <a href="https://drive.google.com/open?id=0B8rcpO7ziwLQNEFYUFh4Y1JFRXM" target="_blank">
-                    <button type="button" class="btn btn-success btn-jeopardy">more ..</button></a>
-              </div>
-            </div>
+        <div class="col-md-3 jeopardy wow fadeInRight" data-wow-delay=".4s" data-wow-duration="2.5s">
+          <div class="des-jeopardy-top">
+            <h3 class="text-center">Vandeven Nursery</h3>
+          </div>
+          <div class="img-container">
+            <img class="img-responsive" src="images/csharp.png">
+          </div>
+          <div class="project-icons">
+              <img src="images/icons/html-icon.png" alt="html">
+              <img src="images/icons/css-icon.png" alt="CSS">
+              <img src="images/icons/js-icon.png" alt="javascript">
+              <img src="images/icons/jquery-icon.png" alt="jQuery">
+           </div>
+          <div class="des-jeopardy">
+            <p>Developed CRM system using C# application and Access database to keep track of inventory, sales, and customer
+              information. SRS document, Gantt chart, UML diagram, database schema, and Unit Testing. </p>
+            <a href="https://drive.google.com/open?id=0B8rcpO7ziwLQNEFYUFh4Y1JFRXM" target="_blank">
+              <button type="button" class="btn btn-success btn-jeopardy">more ..</button>
+            </a>
+          </div>
+        </div>
         <div class="col-md-3 jeopardy wow fadeInDown" data-wow-delay=".4s" data-wow-duration="2.5s">
           <div class="des-jeopardy-top">
             <h3 class="text-center">Tribute Page</h3>
@@ -283,11 +341,18 @@
           <div class="img-container">
             <img class="img-responsive" src="images/stevejobs.JPG">
           </div>
+          <div class="project-icons">
+              <img src="images/icons/html-icon.png" alt="html">
+              <img src="images/icons/css-icon.png" alt="CSS">
+              <img src="images/icons/js-icon.png" alt="javascript">
+              <img src="images/icons/jquery-icon.png" alt="jQuery">
+           </div>
           <div class="des-jeopardy">
             <p>Tribute page. Freecodecamp project</p>
             <a href="https://codepen.io/prai/full/gWVOzO/" target="_blank">
-                  <button type="button" class="btn btn-success btn-jeopardy">
-                      Steve Jobs</button></a>
+              <button type="button" class="btn btn-success btn-jeopardy">
+                Steve Jobs</button>
+            </a>
           </div>
         </div>
         <div class="col-md-3 jeopardy wow fadeInLeft" data-wow-delay=".4s" data-wow-duration="2.5s">
@@ -297,25 +362,44 @@
           <div class="img-container">
             <img class="img-responsive" src="images/thegurkhas.png">
           </div>
+          <div class="project-icons">
+              <img src="images/icons/html-icon.png" alt="html">
+              <img src="images/icons/css-icon.png" alt="CSS">
+              <img src="images/icons/js-icon.png" alt="javascript">
+              <img src="images/icons/jquery-icon.png" alt="jQuery">
+           </div>
           <div class="des-jeopardy">
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. .</p>
             <a href="https://codepen.io/prai/full/NvPEdq/" target="_blank">
-                    <button type="button" class="btn btn-success btn-jeopardy">
-                    Gurkhas</button></a>
+              <button type="button" class="btn btn-success btn-jeopardy">
+                Gurkhas</button>
+            </a>
           </div>
         </div>
       </div>
     </div>
   </main>
   <!--=====Social Media Icon Sticky ======-->
-  <div class="container-fluid" id="recent-project"> 
+  <div class="container-fluid" id="recent-project">
     <div id="social-media-icon">
-        <ul>
-            <li><a href="https://www.linkedin.com/in/prai007/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-            <li><a href="https://github.com/raisking" target="_blank"><i class="fa fa-github"></i></a></li>     
-            <li><a href="https://www.freecodecamp.com/raisking" target="_blank"><i class="fa fa-free-code-camp"></i></a></li>    
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/prai007/" target="_blank">
+            <i class="fa fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/raisking" target="_blank">
+            <i class="fa fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.freecodecamp.com/raisking" target="_blank">
+            <i class="fa fa-free-code-camp"></i>
+          </a>
+        </li>
+    </div>
   </div>
-</div>
   <!--=================================================Social Media Container==========================================-->
   <footer id="container-footer">
     <div>
@@ -328,28 +412,36 @@
         <li></li>
       </ul>
     </div>
-    <div class="container-fluid" id="media-div">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 media-link">
-            <h3><a href="https://www.linkedin.com/in/prai007/" target="_blank">LinkedIn</a></h3>
-          </div>
-          <div class="col-md-3 media-link">
-            <h3><a href="https://www.freecodecamp.com/raisking" target="_blank">FreeCodeCamp</a></h3>
-          </div>
-          <div class="col-md-3 media-link">
-            <h3><a href="https://github.com/raisking" target="_blank">GitHub</a></h3>
-          </div>
-          <div class="col-md-3 media-link">
-            <h3><a href="images/prai_Resume.pdf" target="_blank">Resume</a></h3>
-          </div>
-        </div>
-      </div>
-    </div>
     <!--=================================================Footer Container==========================================-->
     <div class="container-fluid" id="footer-div">
       <p>Contact me at any of my social media sites
         <br>&copy; Copyright 2017 </p>
+    </div>
+    <div class="container-fluid" id="media-div">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 media-link">
+            <h3>
+              <a href="https://www.linkedin.com/in/prai007/" target="_blank">LinkedIn</a>
+            </h3>
+          </div>
+          <div class="col-md-3 media-link">
+            <h3>
+              <a href="https://www.freecodecamp.com/raisking" target="_blank">FreeCodeCamp</a>
+            </h3>
+          </div>
+          <div class="col-md-3 media-link">
+            <h3>
+              <a href="https://github.com/raisking" target="_blank">GitHub</a>
+            </h3>
+          </div>
+          <div class="col-md-3 media-link">
+            <h3>
+              <a href="images/prai_Resume.pdf" target="_blank">Resume</a>
+            </h3>
+          </div>
+        </div>
+      </div>
     </div>
   </footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>

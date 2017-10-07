@@ -259,8 +259,10 @@
 		font-size: 1.3em;
 	}
 	#social-media-icon {
-        display: none;
-    }
+				/* display: none; */
+				width: 30%;
+		}
+		
 
 }
 

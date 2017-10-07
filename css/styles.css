@@ -20,11 +20,12 @@ body {
   text-decoration: none;
 }
 #header-div{
-	background-color: #f2f2f2;
+	background-color: #ccc;
 	color: #000;
-	text-align: right;
+	text-align: center;
 	transition: 1s;
 	padding-top: 10px;
+	font-weight: bold;
 		
 }
 
@@ -53,7 +54,7 @@ body {
 	text-decoration: none;
 }
 #resume-div{
-	background-color: #f2f2f2;
+	background-color: #ccc;
 }
 #resume-div ul li{
 	display: inline-block;
@@ -89,13 +90,23 @@ body {
     display: inline-block;
     padding: 3px 20px;	
 }
-
+.skill-sec h4{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.skill-sec .col p{
+	font-size: bold;
+}
 .skills-col {
 
     max-width: 1100px;
     display: block;
     margin: auto;
     text-align: center;
+}
+#mySkills h1{
+	text-transform: uppercase;
+	font-weight: bolder;	
 }
 #project{
 	background-color: #6886b7;
@@ -115,10 +126,11 @@ body {
   	background-position: center;
   	background-repeat: no-repeat;
   	background-size: cover;
-  /*background-attachment: fixed;*/
+
 }
 #footer-div p{
 	font-size: 1.2em;
+
 }
 .flex-box-info{
 	border: 1px solid #fff;
@@ -229,10 +241,6 @@ ul.colors li:nth-child(5) {
 }
 ul.colors li:nth-child(6) {
     background: orange;
-}
-
-ul.colors li:hover {
-    /*height: 50px;*/
 }
 .social-icon-wrapper{
 	padding-top: 10px;
@@ -620,10 +628,12 @@ fieldset {
 }
 hr{
 	height: 1px;
-	width: 60%;
+	width: 70%;
 	margin: auto;
 	margin-top: 20px;
 	margin-bottom: 30px;
+	background-color: #000;
+
 }
 .media-link{
   -vendor-animation-duration: 3s;
@@ -631,12 +641,7 @@ hr{
   -vendor-animation-iteration-count: infinite;
 }
 #md-div{
-  /* background-image: url(../images/bluebg.png); */
-  background-color: #f2f2f2;
-  /* background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
-  /* opacity: .9; */
+background-color: #ccc;
   height: auto;
 }
 
@@ -659,13 +664,17 @@ hr{
 }
 
 /*-----Recent project div----------*/
+#my-recent-project{
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	
+}
 #recent-project{
 	background-color: #f2f2f2;
-	/* margin: 0 auto;/
-	/* opacity: .9; */
-}
-#recent-project h2{
-	text-align: center;
+	padding-top: 10px;
 }
 #random-quote{
 	color: #000;
@@ -692,6 +701,7 @@ hr{
 	background-color: #fff;
 	padding: 20px;
 	height: 150	px;	
+	
 }
 .des-jeopardy-top{
 	background-color: #000;
@@ -752,4 +762,12 @@ hr{
 	text-transform: uppercase;
 	font-weight: bold;
 }
+.project-icons{
+	background-color: #fff;
+	padding: 15px;
 
+}
+.project-icons img{
+	width: 20px;
+    
+}
