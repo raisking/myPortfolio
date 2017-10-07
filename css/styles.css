@@ -62,16 +62,15 @@ body {
 .resume{
 	color: #fff;
 }
- 
 #mypic{
 	/*border-radius: 50%;*/
 	height: 150px;
 	margin: 0 auto;
 }
 #intro-div{
+	/* padding-top: 2\0px; */
 	background-color: #f2f2f2;
 	color: #000;
-	padding-bottom: 20px;
 	font-family: 'Poppins', sans-serif;
 	
 	/*opacity: 0.9;*/
@@ -107,6 +106,7 @@ body {
 #mySkills h2{
 	text-transform: uppercase;
 	font-weight: bolder;	
+	text-align: center;
 }
 #project{
 	background-color: #6886b7;
@@ -285,12 +285,22 @@ ul.colors li:nth-child(6) {
 
 }
 .media-link a:hover{
-	transition: 1s;
-	letter-spacing: 2px;
-	border-top: 1px solid #f00;
+	transition: 4s;
+	/* letter-spacing: 2px; */
+	/* border-top: 1px solid #f00; */
 	border-bottom: 1px solid #f00;
 
 }
+/* #zoom{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#zoom:hover{
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+} */
 .prj{
 	text-align: center;
 	text-transform: uppercase;
