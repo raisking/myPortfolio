@@ -789,3 +789,9 @@ hr{
 	border-radius: 0;
 	box-shadow: 0 8px 6px -6px black;
 }
+#footer-div p{
+	font-size: 1em;
+}
+#prakashrai-color{
+	color: #f00;
+}
