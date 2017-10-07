@@ -25,7 +25,7 @@ $(document).ready(function(){
         $(this).css('color', 'black');
     })
 })
-$(document).on('click', 'a[href^="#recent-project"],a[href^="#resume-div"], a[href^="#container-footer"]', function (event) {
+$(document).on('click', 'a[href^="#resume-div"],a[href^="#my-recent-project"], a[href^="#container-footer"]', function (event) {
     event.preventDefault();
 
     $('html, body').animate({
