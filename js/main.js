@@ -30,5 +30,5 @@ $(document).on('click', 'a[href^="#recent-project"],a[href^="#resume-div"], a[hr
 
     $('html, body').animate({
         scrollTop: $($.attr(this, 'href')).offset().top
-    }, 1000);
+    }, 2000);
 });
