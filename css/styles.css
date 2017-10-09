@@ -715,7 +715,7 @@ hr{
 .des-jeopardy{
 	background-color: #fff;
 	padding: 20px;
-	height: 150	px;	
+	height: 120	px;	
 	
 }
 .des-jeopardy-top{
@@ -724,8 +724,8 @@ hr{
 	padding: 1px 0;
 	height: auto;	
 }
-.img-container{
-	height: 250px;
+.img-container img{
+	height: auto;
 	width: auto;
 	/* border: 1px solid red;	 */
 }
