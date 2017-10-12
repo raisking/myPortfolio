@@ -1,27 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Plaster');
 * {
 	box-sizing: border-box;
 	text-decoration: none;
 	text-decoration-style: none;
 	list-style: none;	
 }
+body {
+	font-family: "Poppins", sans-serif;
+	background-image: url(../images/code1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed; 
+	text-decoration: none;
+  }
 a{
 	color: rgb(0, 0, 102);
 }
 a:hover{
 	text-decoration: none;	
 }
-body {
-  font-family: "Poppins", sans-serif;
-  background-image: url(../images/code1.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed; 
-  text-decoration: none;
-}
+
 #header-div{
 	background-color: #ccc;
-	color: #000;
+	color: #000x`;
 	text-align: center;
 	transition: 1s;
 	padding-top: 10px;
@@ -69,13 +71,26 @@ body {
 }
 #intro-div{
 	/* padding-top: 2\0px; */
-	background-color: #f2f2f2;
+	background-color: #fff;
 	color: #000;
 	font-family: 'Poppins', sans-serif;
-	
-	/*opacity: 0.9;*/
-	/*height: 500px;*/
+
 }
+#intro-full-stack{
+	background-color: #000;
+	color: #ccc;
+	font-family: 'Poppins', sans-serif;
+
+}
+#full-stack{
+	padding: 250px;
+}
+#full-stack h1,h2{	
+	font-family: 'Plaster', cursive;
+	font-size: 4em;
+	text-transform: uppercase;
+}
+
 .inside-padding{
 	padding-top: 40px;
 	padding-bottom: 130px;
@@ -308,13 +323,12 @@ ul.colors li:nth-child(6) {
 	text-transform: uppercase;
 	text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.4); 
 }
-/* .abt h1{
-	font-size: 5em;
-	letter-spacing: 15px;
-	text-transform: uppercase;
-	font-weight: bolder;
-	text-shadow: 5px 5	px rgb(255, 255,255);
-} */
+
+.about-me{
+	padding-top: 60px;
+	padding-left: 20px;
+	
+}
 .myname li {
 	list-style: none;
 	float: left;
@@ -796,4 +810,110 @@ hr{
 }
 #prakashrai-color{
 	color: #f00;
+}
+
+
+/*====================================================
+                       CONTACT
+======================================================*/
+#information {
+    background-color: #454a50 ;
+    padding: 30px 0;
+	border-top: 5px solid #313539;
+	
+}
+
+#contact-left {
+    margin-top: 20px;
+}
+
+#contact-right {
+    margin-top: 20px;
+}
+
+#contact-left #contact-info {
+    background-image: url("images/world-map.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 15px;
+}
+
+#contact-left #contact-info address {
+    color: #fff;
+    font-family: "roboto condensed", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+#contact-left #contact-info address strong {
+    font-weight: 700;
+}
+
+#contact-left #phone-fax-email {
+    letter-spacing: 1px;
+    font-family: "roboto condensed", sans-serif;
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+#contact-left #phone-fax-email strong {
+    font-weight: 700;
+}
+
+#contact-left ul.social-list {
+    text-decoration: none;
+}
+
+#contact-left ul.social-list li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+#contact-left ul.social-list li a {
+    color: #fff;
+}
+
+#contact-left ul.social-list li a:hover {
+    color: #e74c3c;
+}
+
+#contact-right h3 {
+    color: #fff;
+    font-size: 27px;
+    font-weight: 700;
+    font-family: "roboto condensed", sans-serif;
+    text-transform: uppercase;
+}
+
+form .form-control {
+    background: transparent;
+    border-radius: 0;
+    border-color: #fff;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+
+
+
+#frameworks{
+	padding: 60px 0;
+	
+}
+#skills{
+	padding-top:50px;
+}
+#copyright{
+	background-color: #000;
+	color: #fff;
+	padding: 10px;
+
+}
+#copyright p {
+	text-align: center;
 }
