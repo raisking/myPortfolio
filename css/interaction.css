@@ -274,7 +274,19 @@
 	#social-media-icon i{
 		font-size: 20px;
 }
-		
+	#full-stack{
+		padding-top: 120px;
+		padding-bottom: 120px;
+	}
+	#full-stack h1,h2{	
+		font-family: 'Abril Fatface', cursive;
+		font-size: 2em;
+		text-transform: uppercase;
+		font-weight: bolder;
+	}
+	#btn-resume{
+		justify-content: center;
 
+	}
 }
 

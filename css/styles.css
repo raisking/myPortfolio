@@ -700,8 +700,8 @@ hr{
 
 /*-----Recent project div----------*/
 #my-recent-project{
-	background-color: #000;
-	color: #fff;
+	background-color: #fff;
+	color: #000;
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: bold;
