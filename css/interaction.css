@@ -205,7 +205,6 @@
 /* ================================= 
   Media Queries
 ==================================== */
-
 @media (min-width: 0) and (max-width: 768px) {
 	.container-a {
 		padding: 0 1.225em 2.5em;

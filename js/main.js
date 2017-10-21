@@ -18,14 +18,7 @@ var randomQuote = [
 var random = Math.floor(Math.random() * randomQuote.length);
 document.getElementById('random-quote').innerHTML = randomQuote[random];    
 
-// $(document).ready(function(){
-//     $('#random-quote').hover(function(){
-//         $(this).css('color','red');
-//     }, function(){
-//         $(this).css('color', 'black');
-//     })
-// })
-$(document).on('click', 'a[href^="#resume-div"],a[href^="#my-recent-project"], a[href^="#footer-div"]', function (event) {
+$(document).on('click', 'a[href^="#resume-div"],a[href^="#my-recent-project"], a[href^="#contact-right"]', function (event) {
     event.preventDefault();
 
     $('html, body').animate({

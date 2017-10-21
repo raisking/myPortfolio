@@ -85,10 +85,11 @@ a:hover{
 	opacity: .8;
 	color: #fff;
 	font-family: 'Poppins', sans-serif;
+	height: 100vh;
 
 }
 #full-stack{
-	padding-top: 270px;
+	padding-top: 200px;
 	padding-bottom: 270px;
 }
 #full-stack h1,h2{	
@@ -96,6 +97,7 @@ a:hover{
 	font-size: 4em;
 	text-transform: uppercase;
 	font-weight: bolder;
+	text-shadow: 10px 2px 2px rgba(255, 255, 255, 0.5);
 }
 
 .inside-padding{
@@ -105,7 +107,6 @@ a:hover{
 #skill-page, #mySkills{
 	background-color: #fff;
 	opacity: none;
-
 }
 .skill-sec div {
     display: inline-block;
@@ -119,11 +120,14 @@ a:hover{
 	font-size: bold;
 }
 .skills-col {
-
     max-width: 1100px;
     display: block;
     margin: auto;
     text-align: center;
+}
+#Wrapper{
+	height: 100vh;
+	background-color: #fff;
 }
 #mySkills h2{
 	text-transform: uppercase;
