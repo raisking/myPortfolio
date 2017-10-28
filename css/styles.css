@@ -94,14 +94,20 @@ a:hover{
 	padding-top: 200px;
 	padding-bottom: 270px;
 }
-#full-stack h1,h2{	
+#full-stack h1{	
 	font-family: 'Orbitron', sans-serif;
-	font-size: 4em;
+	font-size: 4.5em;
 	text-transform: uppercase;
 	font-weight: bolder;
 	text-shadow: 10px 2px 2px rgba(255, 255, 255, 0.5);
 }
-
+#full-stack h2{	
+	font-family: 'Orbitron', sans-serif;
+	font-size: 3.5em;
+	text-transform: uppercase;
+	font-weight: bolder;
+	text-shadow: 10px 2px 2px rgba(255, 255, 255, 0.5);
+}
 .inside-padding{
 	padding-top: 40px;
 	padding-bottom: 130px;
@@ -420,7 +426,10 @@ ul.colors li:nth-child(6) {
 	display:block;
 	font-size:13px;
 }
-
+.name-pic h3{
+	font-weight: bolder;
+	font-size: 1.4em;
+}
 fieldset {
 	border: medium none !important;
 	margin: 0 0 10px;
@@ -892,7 +901,8 @@ hr{
     color: #fff;
     font-size: 27px;
     font-weight: 700;
-    text-transform: uppercase;
+	text-transform: uppercase;
+	
 }
 
 form .form-control {
@@ -930,4 +940,16 @@ form .form-control {
 }
 .col-md-3:hover{
 	box-shadow: 3px 3px 5px 6px #ccc;
+}
+#load{
+
+    width:100%;
+    height:100%;
+    position:fixed;
+    z-index:9999;
+    background:url("http://blog.thibaulthelsmoortel.be/wp-content/uploads/2017/02/spinner.gif") no-repeat center center rgba(0,0,0,0.25)
+}
+#loading{
+	height: 100vh;
+	background-color: black;
 }

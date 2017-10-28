@@ -277,11 +277,15 @@
 		padding-top: 120px;
 		padding-bottom: 120px;
 	}
-	#full-stack h1,h2{	
+	#full-stack h1{	
 		font-size: 2em;
 		text-transform: uppercase;
 		font-weight: bolder;
 	}
-
+	#full-stack h2{	
+		font-size: 2em;
+		text-transform: uppercase;
+		font-weight: bolder;
+	}
 }
 
