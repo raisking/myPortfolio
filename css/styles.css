@@ -110,7 +110,7 @@ a:hover{
 }
 .inside-padding{
 	padding-top: 40px;
-	padding-bottom: 130px;
+
 }
 #skill-page, #mySkills{
 	background-color: #fff;
@@ -344,7 +344,7 @@ ul.colors li:nth-child(6) {
 }
 
 .about-me{
-	padding-top: 60px;
+	padding-top: 180px;
 	padding-left: 20px;
 	
 }
