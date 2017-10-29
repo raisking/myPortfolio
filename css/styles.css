@@ -840,9 +840,10 @@ hr{
                        CONTACT
 ======================================================*/
 #information {
-	background-color: #14294d;
+	background-color: #000;
     padding: 30px 0;
 	border-top: 5px solid #313539;
+	opacity: 0.8;
 	
 }
 
