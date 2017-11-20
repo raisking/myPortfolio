@@ -755,12 +755,13 @@ hr{
 }
 
 .projectFlexboxItem{
-	background-color: rgb(47, 128, 153);
+	background-color: rgb(15, 158, 202);
 	width: 360px;	
 	height: auto;
 	margin: 20px 0;
 	box-shadow: 5px 5px 5px -2px rgb(46, 37, 37);
 	border: 2px solid #000;		
+	
 
 }
 .projectDescriptionContainerFlexbox{
@@ -770,14 +771,20 @@ hr{
 .projectIconFlexbox{
 	height: 50px;
 }
+
 .projectHeaderflexbox h3{
 	font-weight: bold;	
 	color: #000;
+
+
+	
 }
 .img-container{
     position: relative;
 	overflow: hidden;
-	border: 1px solid rgb(75, 71, 71);	
+	border: 1px solid #000;
+	border-top: 2px solid #000;
+
 }
 .img-container img{
 	height: 250px;
