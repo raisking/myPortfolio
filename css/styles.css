@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 @import url('https://fonts.googleapis.com/css?family=Orbitron:700');	
+@import url('https://fonts.googleapis.com/css?family=Sigmar+One');
 * {
 	box-sizing: border-box;
 	text-decoration: none;
@@ -29,6 +30,7 @@ a:hover{
 }
 h2{
 	text-shadow: 2px 2px 5px rgb(113, 171, 209);
+	font-family: 'Sigmar One', cursive;
 }
 
 #header-div{
@@ -279,7 +281,7 @@ ul.colors li:nth-child(3) {
     background: rgb(88, 221, 71);
 }
 ul.colors li:nth-child(4) {
-    background: #fff;
+    background: rgb(236, 15, 100);
 }
 ul.colors li:nth-child(5) {
     background: rgb(178, 238, 253);
@@ -290,6 +292,8 @@ ul.colors li:nth-child(6) {
 ul.colors li:nth-child(7) {
     background: rgb(97, 214, 218);
 }
+
+
 .social-icon-wrapper{
 	padding-top: 10px;
 }
@@ -766,7 +770,10 @@ hr{
 .projectIconFlexbox{
 	height: 50px;
 }
-
+.projectHeaderflexbox h3{
+	font-weight: bold;	
+	color: #000;
+}
 .img-container{
     position: relative;
 	overflow: hidden;
