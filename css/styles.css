@@ -686,11 +686,11 @@ hr{
 	background-color: #000;
 
 }
-.media-link{
+/* .media-link{
   -vendor-animation-duration: 3s;
   -vendor-animation-delay: 2s;
   -vendor-animation-iteration-count: infinite;
-}
+} */
 #md-div{
 	background-color: #000;
 	opacity: .8;
@@ -725,11 +725,53 @@ hr{
 	font-weight: bold;
 	
 }
-#recent-project{
-	background-color: #fff;
-	padding-top: 10px;
-	
+ /* Projects Flexbox Container  */
+
+.projectFlexbox{
+	margin: 0 auto;
+	width: 80%;
+	display:flex;
+	flex-wrap: wrap;
+	/* background-color: rgb(212, 212, 127); */
+	justify-content: space-between;
 }
+
+.projectFlexboxItem{
+	background-color: #fff;
+	width: 360px;
+	height: auto;
+	border: 2px solid rgb(225, 231, 230);
+	margin: 20px 0;
+	/* box-shadow: 1px 1px 1px 5px rgb(95, 110, 170); */
+	box-shadow: 5px 5px 5px -2px #fff;
+	
+
+}
+.projectDescriptionContainerFlexbox{
+	padding-left: 20px;
+	height: 130px;	
+}
+.projectIconFlexbox{
+	height: 50px;
+}
+
+.img-container{
+    position: relative;
+	overflow: hidden;
+	border: 1px solid rgb(75, 71, 71);	
+}
+.img-container img{
+	height: 250px;
+	width: 400px;
+	max-width: 100%;
+    transition: all 0.9s;	
+}
+
+.img-container img:hover{
+    transform: scale(1.1);
+}
+
+ /* Projects Flexbox Container End */
 
 #random-quote{
 	color: #000;
@@ -738,10 +780,14 @@ hr{
 	padding-bottom: 10px;
 
 }
-.jeopardy{
-	/* border: 1px solid red; */
+/* .jeopardy{
+	border: 1px solid rgb(0, 255, 128);
 	margin-left: 30px;
 	padding-bottom: 10px;		
+} */
+.projectContainerWrapper{
+	border: 5px solid rgb(43, 207, 112);
+	margin: 20px 0 20px 0;
 }
 
 .recentProject{
@@ -752,27 +798,26 @@ hr{
 .btn-jeopardy{
 	align-content: center;
 }
-.des-jeopardy{
-	background-color: #fff;
-	padding: 20px;
-	height: 120	px;	
+.projectDescriptionContainer{
+	background-color: rgb(80, 173, 190);
+	height: 150px;
+	width: 400px;
+	border: 1px solid red;
+	box-sizing: content-box;
 	
+}
+.projectHeader{
+	border: 1px solid blue;
+	background-color: rgb(34, 153, 143);
 }
 .des-jeopardy-top{
 	background-color: #000;
 	color: #fff;
 	padding: 1px 0;
 	height: auto;	
+	border: 1px solid red;
 }
-.img-container img{
-	height: auto;
-	width: auto;
-	/* border: 1px solid red;	 */
-}
-.img-container:hover{
-	/* transition-delay: 3s; */
-	opacity: .7;		
-}
+
 
 /*=====Sticky Social Media Icon*/
 #social-media-icon {
@@ -781,7 +826,7 @@ hr{
 	left: 0;
 	background: #fff;
     border: 1px solid #000;
-    border-radius: 20px;
+    border-radius: 10px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     opacity: 0.7;
@@ -799,27 +844,27 @@ hr{
 }
 #social-media-icon ul li a {
     display: block;
-    color: black;
+    color: rgb(24, 171, 207);
     padding: 5px;
-    -webkit-transition: -webkit-transform .5s ease-in-out;
-    -moz-transition: -moz-transform .5s ease-in-out;
-    -o-transition: -o-transform .5s ease-in-out;
     transition: transform .5s ease-in-out;
 }
-
 #social-media-icon ul li a:hover {
 	color: #f00;
 }
 #social-media-icon i {
     font-size: 30px;
 }
+/*=====Sticky Social Media Icon End*/
+
 .ksu, .ga {
 	text-transform: uppercase;
 	font-weight: bold;
 }
 .project-icons{
 	background-color: #fff;
-	padding: 15px;
+	/* height: 50px; */
+	padding: 10px 0 10px 0;
+	border: 1px solid rgb(37, 167, 25);
 
 }
 .project-icons img{
@@ -940,12 +985,12 @@ form .form-control {
 #copyright p {
 	text-align: center;
 }
-.col-md-3{
+/* .col-md-3{
 	margin: 20px;
-}
-.col-md-3:hover{
+} */
+/* .col-md-3:hover{
 	box-shadow: 3px 3px 5px 6px #ccc;
-}
+} */
 #load{
 
     width:100%;
@@ -957,4 +1002,21 @@ form .form-control {
 #loading{
 	height: 100vh;
 	background-color: black;
+}
+
+#projectsContainer{
+	border: 1px solid red;
+}
+/* Flexbox Projects */
+
+.projectsWrapper{
+	display: flex;
+	flex-wrap: wrap;
+}
+.projectsItemWrapper{
+	width: 250px;
+	height: 250px;
+	border: 1px solid rgb(177, 56, 56);
+	background-color: #fff;
+	margin: 15px;
 }
