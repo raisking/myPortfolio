@@ -737,6 +737,9 @@ hr{
 	
 }
  /* Projects Flexbox Container  */
+ #myprojectContainer{
+	 background-color: #fff;
+ }
 
 .projectFlexbox{
 	margin: 0 auto;
@@ -748,14 +751,12 @@ hr{
 }
 
 .projectFlexboxItem{
-	background-color: #fff;
-	width: 360px;
+	background-color: rgb(47, 128, 153);
+	width: 360px;	
 	height: auto;
-	border: 2px solid rgb(225, 231, 230);
 	margin: 20px 0;
-	/* box-shadow: 1px 1px 1px 5px rgb(95, 110, 170); */
-	box-shadow: 5px 5px 5px -2px #fff;
-	
+	box-shadow: 5px 5px 5px -2px rgb(46, 37, 37);
+	border: 2px solid #000;		
 
 }
 .projectDescriptionContainerFlexbox{
