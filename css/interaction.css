@@ -257,16 +257,8 @@
 	.myname li {
 		font-size: 1.3em;
 	}
-	#social-media-icon {
-				/* display: none; */
-				width: 30%;
-				background-color: yellow;
-				width: 40px;
-		}
+
 		#social-media-icon {
-			/* display: none; */
-			width: 30%;
-			background-color: rgb(107, 150, 151);
 			width: 40px;
 			top: 30%;
 	}
