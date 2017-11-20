@@ -8,6 +8,7 @@
 	text-decoration: none;
 	text-decoration-style: none;
 	list-style: none;	
+	
 }
 body {
 	font-family: 'Quicksand', sans-serif;
@@ -25,6 +26,9 @@ a{
 }
 a:hover{
 	text-decoration: none;	
+}
+h2{
+	text-shadow: 2px 2px 5px rgb(113, 171, 209);
 }
 
 #header-div{
@@ -835,7 +839,6 @@ hr{
 #social-media-icon ul {
     list-style-type: none;
 }
-
 #social-media-icon ul li {
     display: -webkit-flex;
     display: flex;
