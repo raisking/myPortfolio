@@ -397,13 +397,7 @@ ul.colors li:nth-child(7) {
 * {
 	margin:0;
 	padding:0;
-	box-sizing:border-box;
-	-webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	-webkit-font-smoothing:antialiased;
-	-moz-font-smoothing:antialiased;
-	-o-font-smoothing:antialiased;
-	font-smoothing:antialiased;
+	box-sizing:border-box;	
 	text-rendering:optimizeLegibility;
 }
 .contact-bg{
@@ -478,7 +472,7 @@ fieldset {
 #contact textarea {
 	height:100px;
 	max-width:100%;
-  resize:none;
+  	resize:none;
 }
 
 #contact button[type="submit"] {
@@ -755,12 +749,12 @@ hr{
 }
 
 .projectFlexboxItem{
-	background-color: rgb(15, 158, 202);
+	background-color: rgb(255, 255, 255);
 	width: 360px;	
 	height: auto;
 	margin: 20px 0;
-	box-shadow: 5px 5px 5px -2px rgb(46, 37, 37);
-	border: 2px solid #000;		
+    box-shadow: 0px 5px 5px 2px rgb(66, 36, 36);
+	border: 2px solid rgb(212, 205, 205);		
 	
 
 }
@@ -913,7 +907,7 @@ hr{
                        CONTACT
 ======================================================*/
 #information {
-	background-color: #000;
+	background-color: rgb(6, 7, 7);
     padding: 30px 0;
 	border-top: 5px solid #313539;
 	opacity: 0.8;
@@ -926,7 +920,6 @@ hr{
 
 #contact-right {
 	margin-top: 20px;
-	
 }
 
 #contact-left #contact-info {
@@ -1016,14 +1009,14 @@ form .form-control {
 /* .col-md-3:hover{
 	box-shadow: 3px 3px 5px 6px #ccc;
 } */
-#load{
+/* #load{
 
     width:100%;
     height:100%;
     position:fixed;
     z-index:9999;
     background:url("http://blog.thibaulthelsmoortel.be/wp-content/uploads/2017/02/spinner.gif") no-repeat center center rgba(0,0,0,0.25)
-}
+} */
 #loading{
 	height: 100vh;
 	background-color: black;
