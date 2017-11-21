@@ -776,8 +776,8 @@ hr{
 .img-container{
     position: relative;
 	overflow: hidden;
-	border: 1px solid #000;
-	border-top: 2px solid #000;
+	/* border: 1px solid #000;
+	border-top: 2px solid #000; */
 
 }
 .img-container img{
