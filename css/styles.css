@@ -1053,3 +1053,34 @@ form .form-control {
 	background-color: #fff;
 	margin: 15px;
 }
+
+/* Skills  */
+#skillsContainer{
+	background-color: #fff;
+	padding: 50px 0;
+}
+
+.mySkillContainer{
+	display: flex;
+	background-color: #fff;
+	justify-content: space-between;
+	
+}
+.mySkillContainerItem{
+	width: 100%;
+
+}
+.mySkillContainerItem p{
+	font-weight:  bold;
+	font-size: 3rem;
+	text-transform: uppercase;
+}
+.mySkillContainerItem ul li{
+	font-weight:  bold;
+	font-size: 2rem;
+	text-transform: uppercase;
+	list-style-type: circle;
+	padding-top: 8px;
+}
+
+/* Skill Page end */
