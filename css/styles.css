@@ -13,9 +13,7 @@
 }
 body {
 	font-family: 'Quicksand', sans-serif;
-	/* font-family: 'Karla', sans-serif; */
-	/* font-family: "Poppins", sans-serif; */
-	background-image: url(../images/code1.jpg);
+	background-image: url(../images/galaxy.jpeg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -32,6 +30,9 @@ h2{
 	text-shadow: 2px 2px 5px rgb(113, 171, 209);
 	font-family: 'Sigmar One', cursive;
 }
+p{
+		text-shadow: 1px 1px 1px #000;
+}
 
 #header-div{
 	background-color: #fff;
@@ -47,7 +48,7 @@ h2{
 	color: #000;
 }
 .is-sticky #header-div{
-	background-color: #1C2331;
+	background-color: #07a5a6;
 	height: 70px;
 
 }
@@ -114,6 +115,7 @@ h2{
 	text-transform: uppercase;
 	font-weight: bolder;
 	text-shadow: 10px 2px 2px rgba(255, 255, 255, 0.5);
+	padding-bottom: 30px;
 	/* text-shadow: 5px 8px 6px #39CCCC; */
 }
 #full-stack h2{	
@@ -129,7 +131,7 @@ h2{
 }
 #skill-page, #mySkills{
 	background-color: #fff;
-	opacity: none;
+	/* opacity: 0.7; */
 }
 .skill-sec div {
     display: inline-block;
@@ -368,10 +370,12 @@ ul.colors li:nth-child(7) {
 }
 
 .about-me{
+
 	padding-top: 180px;
 	padding-left: 20px;
 	
 }
+
 .myname li {
 	list-style: none;
 	float: left;
@@ -733,18 +737,19 @@ hr{
 	width: 400px;
 }
 
-/*-----Recent project div----------*/
+
+ /* Projects Flexbox Container  */
+
 #my-recent-project{
-	background-color: #fff;
+	background-color: none;
 	color: #000;
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: bold;
 	
 }
- /* Projects Flexbox Container  */
  #myprojectContainer{
-	 background-color: #fff;
+	 background-color: none;
  }
 
 .projectFlexbox{
@@ -1086,3 +1091,40 @@ form .form-control {
 }
 
 /* Skill Page end */
+
+#resumeContainer{
+	display: flex;
+	justify-content: center;
+}
+#resumeContainer button{
+	padding: 10px;
+	border-radius: 8px;
+}
+
+/* Animation */
+.line-1{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 5s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
