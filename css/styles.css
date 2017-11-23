@@ -68,16 +68,7 @@ p{
 	color: red;
 	text-decoration: none;
 }
-#resume-div{
-	background-color: #000;
-	opacity: .9;
-}
-#resume-div ul li{
-	display: inline-block;
-}
-.resume{
-	color: #fff;
-}
+
 #mypic{
 	/*border-radius: 50%;*/
 	height: 150px;
@@ -105,13 +96,13 @@ p{
 	/* border: 1px solid #fff;
 	background-color: rgb(122, 0, 0); */
 	border-radius: 40px;
-	margin-top: 200px;
+	margin-top: 100px;
 	padding: 20px;
 }
 
 #full-stack h1{	
 	font-family: 'Orbitron', sans-serif;
-	font-size: 4.5em;
+	font-size: 5em;
 	text-transform: uppercase;
 	font-weight: bolder;
 	text-shadow: 10px 2px 2px rgba(255, 255, 255, 0.5);
@@ -1091,14 +1082,53 @@ form .form-control {
 }
 
 /* Skill Page end */
-
-#resumeContainer{
+#flexContainerSocialMedia{
 	display: flex;
-	justify-content: center;
+	justify-content: center;	
+}
+#resumeContainer i {
+	font-size: 45px;
+	color: #fff;
+}
+#resumeContainer i:hover {
+	font-size: 45px;
+	color: #ffee10;
+}
+#resumeContainer{
+	margin: 10px;
+	
 }
 #resumeContainer button{
+	background-color: rgb(75, 73, 73);
 	padding: 10px;
-	border-radius: 8px;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	border: 2px solid rgb(238, 233, 233);
+}
+#resumeContainer button:hover{
+	border: 5px solid #ffee10;
+	box-shadow: -2px -2px 20px 2px #ffee10;
+	transition: .7s ease-in-out;
+	color: rgb(240, 231, 107);
+
+}
+#resume-div{
+	background-color: #000;
+	opacity: .9;
+}
+#resume-div ul li{
+	display: inline-block;
+}
+.resume{
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+}
+.resume:hover{
+	color: rgb(240, 231, 107);
+	font-weight: bolder;
 }
 
 /* Animation */
@@ -1115,16 +1145,3 @@ form .form-control {
     transform: translateY(-50%);    
 }
 
-/* Animation */
-.anim-typewriter{
-  animation: typewriter 5s steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) infinite normal;
-}
-@keyframes typewriter{
-  from{width: 0;}
-  to{width: 24em;}
-}
-@keyframes blinkTextCursor{
-  from{border-right-color: rgba(255,255,255,.75);}
-  to{border-right-color: transparent;}
-}
