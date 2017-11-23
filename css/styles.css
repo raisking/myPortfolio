@@ -4,6 +4,9 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 @import url('https://fonts.googleapis.com/css?family=Orbitron:700');	
 @import url('https://fonts.googleapis.com/css?family=Sigmar+One');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display');
+
 * {
 	box-sizing: border-box;
 	text-decoration: none;
@@ -30,9 +33,7 @@ h2{
 	text-shadow: 2px 2px 5px rgb(113, 171, 209);
 	font-family: 'Sigmar One', cursive;
 }
-p{
-		text-shadow: 1px 1px 1px #000;
-}
+
 
 #header-div{
 	background-color: #fff;
@@ -1010,7 +1011,7 @@ form .form-control {
 	background-color: #000;
 	color: #fff;
 	padding: 10px;
-	opacity: 0.7;
+	opacity: 0.8;
 
 }
 #copyright p {
@@ -1108,14 +1109,14 @@ form .form-control {
 	width: 100px;
 	height: 100px;
 	border-radius: 100%;
-	border: 2px solid rgb(238, 233, 233);
+	border: 1px solid rgb(238, 233, 233);
 }
 #resumeContainer button:hover{
-	border: 5px solid #ffee10;
+	border: 2px solid #ffee10;
 	box-shadow: -2px -2px 20px 2px #ffee10;
 	transition: .7s ease-in-out;
 	color: rgb(240, 231, 107);
-
+	background-color: #000;
 }
 #resume-div{
 	background-color: #000;
@@ -1127,6 +1128,8 @@ form .form-control {
 .resume{
 	color: rgb(255, 255, 255);
 	font-weight: bold;
+	font-family: 'Sedgwick Ave Display', cursive;
+	font-size: 18px;
 }
 .resume:hover{
 	color: rgb(240, 231, 107);
