@@ -30,7 +30,7 @@ a:hover{
 	text-decoration: none;	
 }
 h2{
-	text-shadow: 2px 2px 5px rgb(113, 171, 209);
+	text-shadow: 1px 1px 3px rgb(209, 171, 113);
 	font-family: 'Sigmar One', cursive;
 }
 
@@ -79,6 +79,7 @@ h2{
 	/* padding-top: 2\0px; */
 	background-color: #fff;
 	color: #000;
+	padding-bottom: 100px;	
 
 
 }
@@ -366,11 +367,8 @@ ul.colors li:nth-child(7) {
 }
 
 .about-me{
-
-	padding-top: 180px;
+	padding-top: 50px;
 	padding-left: 20px;
-
-	
 }
 
 .myname li {
@@ -742,7 +740,8 @@ hr{
 } */
 #md-div{
 	background-color: rgb(43, 109, 148);
-  	height: 150px;
+	  height: auto;
+	  padding-bottom: 20px;
 }
 
 #md-div p{	
@@ -1188,3 +1187,22 @@ form .form-control {
     transform: translateY(-50%);    
 }
 
+#skillContainer{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #fff;
+	justify-content: space-evenly;	
+}
+#skillItemContainer{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 10px;
+}
+#skillWrapperContainer{
+	background-color: #fff;
+	padding-bottom: 90px;
+	padding-top: 30px;	
+
+}

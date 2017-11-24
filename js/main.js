@@ -28,9 +28,11 @@ $(document).on('click', 'a[href^="#resume-div"],a[href^="#my-recent-project"], a
 
 $(window).resize(function(){
     let width = $(window).width();
-    if (width < 750 ){
+    $('.myName').hide()
+    if (width < 1130 ){
         $('.threeD').hide()
-    } else if (width > 750 ){
+        $('.myName').show()
+    } else if (width > 1130){
         $('.threeD').show()
     }
 })
