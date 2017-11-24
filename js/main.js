@@ -25,3 +25,12 @@ $(document).on('click', 'a[href^="#resume-div"],a[href^="#my-recent-project"], a
         scrollTop: $($.attr(this, 'href')).offset().top
     }, 2000);
 });
+
+$(window).resize(function(){
+    let width = $(window).width();
+    if (width < 750 ){
+        $('.threeD').hide()
+    } else if (width > 750 ){
+        $('.threeD').show()
+    }
+})

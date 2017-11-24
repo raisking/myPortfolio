@@ -116,7 +116,7 @@ h2{
 	font-size: 3.5em;
 	text-transform: uppercase;
 	font-weight: bolder;
-	text-shadow: 10px 2px 2px rgba(255, 255, 255, 0.5);
+	text-shadow: 5px 2px 2px rgba(255, 255, 255, 0.5);
 }
 .inside-padding{
 	padding-top: 40px;
@@ -125,6 +125,9 @@ h2{
 #skill-page, #mySkills{
 	background-color: #fff;
 	/* opacity: 0.7; */
+}
+#skill-page{
+	height: 100vh;
 }
 .skill-sec div {
     display: inline-block;
@@ -366,16 +369,48 @@ ul.colors li:nth-child(7) {
 
 	padding-top: 180px;
 	padding-left: 20px;
+
 	
 }
 
 .myname li {
+	text-align: center;
+	vertical-align: middle;
 	list-style: none;
 	float: left;
-	font-size: 4em;
+	font-size: 3em;
 	font-weight: bold;
-	padding-left: 20px;
-	text-shadow: 5px 5px rgb(255, 255,255);
+	border: 1px solid rgb(153, 68, 68);
+	margin: 2px;
+	background-color: #000;
+	color: #fff;
+	width: 60px;
+	height: 60px;
+	transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0,0);
+	transition: .5s;
+	box-shadow: -20px -20px 10px rgba(0,0,0,.5);
+}
+.myname li:before{
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 20px;
+		background: #b1b1b1;
+		transition: .5s;
+		transform: rotate(0deg) skewY(-45deg);
+}
+.myname li:after{
+	content: '';
+	position: absolute;
+	bottom: -20px;
+	left: -20px;
+	height: 100%;
+	width: 20px;
+	background: #b1b1b1;
+	transition: .5s;
+	transform: rotate(0deg) skewX(-45deg);
 }
 .myname{
 	display: inline-block;
@@ -706,18 +741,19 @@ hr{
   -vendor-animation-iteration-count: infinite;
 } */
 #md-div{
-	background-color: #000;
-	opacity: .8;
-  	height: auto;
+	background-color: rgb(43, 109, 148);
+  	height: 150px;
 }
 
 #md-div p{	
-		color: #fff;
+		color: rgb(0, 0, 0);
 		padding-top: 20px;
-		font-size: 1.3em;
+		font-size: 1.4em;
 		margin: auto;
 		font-weight: bold;
+		text-shadow: none;
 }
+
 
 .contact-div{
 	background-color: #fff;
@@ -734,7 +770,7 @@ hr{
  /* Projects Flexbox Container  */
 
 #my-recent-project{
-	background-color: none;
+	background-color: #b1b1b1;
 	color: #000;
 	text-align: center;
 	text-transform: uppercase;
@@ -742,7 +778,7 @@ hr{
 	
 }
  #myprojectContainer{
-	 background-color: none;
+	 background-color: #b1b1b1;
 	
  }
 
@@ -1090,12 +1126,13 @@ form .form-control {
 	justify-content: center;	
 }
 #resumeContainer i {
-	font-size: 45px;
+	text-align: center;
+	font-size: 50px;
 	color: #fff;
 }
 #resumeContainer i:hover {
-	font-size: 45px;
-	color: #ffee10;
+	font-size: 50px;
+	color: #6fa4c7;
 }
 #resumeContainer{
 	margin: 10px;
@@ -1106,20 +1143,21 @@ form .form-control {
 	padding: 10px;
 	color: rgb(255, 255, 255);
 	font-weight: bold;
-	width: 100px;
-	height: 100px;
+	width: 95px;
+	height: 95px;
 	border-radius: 100%;
 	border: 1px solid rgb(238, 233, 233);
 }
 #resumeContainer button:hover{
-	border: 2px solid #ffee10;
-	box-shadow: -2px -2px 20px 2px #ffee10;
+	border: 2px solid #fff;
+	box-shadow: -2px -2px 22px 4px #fff;
 	transition: .7s ease-in-out;
-	color: rgb(240, 231, 107);
+	color: rgb(107, 191, 240);
 	background-color: #000;
+
 }
 #resume-div{
-	background-color: #000;
+	background-color: rgb(214, 153, 153);
 	opacity: .9;
 }
 #resume-div ul li{
@@ -1128,11 +1166,11 @@ form .form-control {
 .resume{
 	color: rgb(255, 255, 255);
 	font-weight: bold;
-	font-family: 'Sedgwick Ave Display', cursive;
-	font-size: 18px;
+	/* font-family: 'Sedgwick Ave Display', cursive; */
+	font-size: 15px;
 }
 .resume:hover{
-	color: rgb(240, 231, 107);
+	color: #6fa4c7;
 	font-weight: bolder;
 }
 
