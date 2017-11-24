@@ -300,7 +300,9 @@ ul.colors li:nth-child(7) {
     background: rgb(97, 214, 218);
 }
 
-
+.icon-white i{
+	width: 100px;
+}
 .social-icon-wrapper{
 	padding-top: 10px;
 }

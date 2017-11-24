@@ -312,11 +312,11 @@
 /* Animation */
 .anim-typewriter{
 	animation: typewriter 5s steps(44) 1s 1 normal both, 
-	blinkTextCursor 500ms steps(44) infinite normal;
+	blinkTextCursor 500ms steps(30) infinite normal;
 }
 @keyframes typewriter{
   from{width: 0;}
-  to{width: 24em;}
+  to{width: 16em;}
 }
 @keyframes blinkTextCursor{
   from{border-right-color: transparent;}
@@ -341,7 +341,7 @@
 }
 .threeD ul li{
   list-style: none;
-  margin: 0 46px;
+  margin: 0 40px;
 }
  .space{
 	margin-left: 20px;
@@ -357,8 +357,8 @@
   transition: .7s;
   position: absolute;
   display: block;
-  width: 80px;
-  height: 80px;
+  width: 65px;
+  height: 65px;
   text-align: center;
   background:  #ffffff;
   transform: perspective(100px) rotate(4deg) skew(15deg) translate(0,0);

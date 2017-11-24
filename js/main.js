@@ -27,12 +27,12 @@ $(document).on('click', 'a[href^="#resume-div"],a[href^="#my-recent-project"], a
 });
 
 $(window).resize(function(){
+   $(".myName").hide();
     let width = $(window).width();
-    $('.myName').hide()
     if (width < 1130 ){
-        $('.threeD').hide()
-        $('.myName').show()
+        $('.threeD').hide();
+        $('.myName').show();
     } else if (width > 1130){
-        $('.threeD').show()
+        $('.threeD').show();
     }
 })
