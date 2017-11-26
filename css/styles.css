@@ -80,6 +80,7 @@ h2{
 	background-color: #fff;
 	color: #000;
 	padding-bottom: 100px;	
+	/* border: 10px solid rgb(7, 115, 129); */
 
 
 }
@@ -124,7 +125,12 @@ h2{
 	text-shadow: 5px 2px 2px rgba(255, 255, 255, 0.5);
 }
 .inside-padding{
-	padding-top: 40px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	/* border: 5px solid #000;
+	background-color: #ccc; */
+	border-radius: 10px;
+
 
 }
 #skill-page, #mySkills{
@@ -375,7 +381,9 @@ ul.colors li:nth-child(7) {
 .about-me{
 	padding-top: 50px;
 	padding-left: 20px;
+	
 }
+
 .myName{
 	text-align: center;
 }
