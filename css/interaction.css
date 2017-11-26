@@ -325,18 +325,13 @@
 
 /* Hover Animnation Introduction */
 .threeD{
-
-	/* background: red; */
 	width: 100%;	
 	height: 200px;
 }
 .threeD ul{
   position: absolute;
-  /* top: 50%; */
   left: 50%;
   transform: translate(-50%, -50%);
-  /* margin: 0;
-  padding: 0; */
   display: flex;
 }
 .threeD ul li{
@@ -360,7 +355,7 @@
   width: 65px;
   height: 65px;
   text-align: center;
-  background:  #ffffff;
+  background: #fff;
   transform: perspective(100px) rotate(4deg) skew(15deg) translate(0,0);
   transition: .7s;
   box-shadow: -20px 20px 10px rgba(0,0,0,.5);
@@ -374,19 +369,18 @@
   left: -20px;
   height: 100%;
   width: 20px;
-  background: #dae0e4;
+  background: #7b7f81;
   transition: .5s;
   transform: rotate(0deg) skewY(-45deg);
 }
-.threeD ul li a:after
-{
+.threeD ul li a:after{
   content: '';
   position: absolute;
   bottom: -20px;
   left: -10px;
   height: 20px;
   width: 100%;
-  background: #b1b1b1;
+  background: #5e5555;
   transition: .5s;
   transform: rotate(0deg) skewX(-45deg);
 }
