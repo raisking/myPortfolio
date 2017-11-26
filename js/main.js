@@ -15,6 +15,7 @@ var randomQuote = [
     "\" “You just can’t beat the person who never gives up.” —Babe Ruth\""
    
 ];
+
 var random = Math.floor(Math.random() * randomQuote.length);
 document.getElementById('random-quote').innerHTML = randomQuote[random];    
 
@@ -26,13 +27,16 @@ $(document).on('click', 'a[href^="#resume-div"],a[href^="#my-recent-project"], a
     }, 2000);
 });
 
+
+$(".myName").hide();
 $(window).resize(function(){
-   $(".myName").hide();
+  
     let width = $(window).width();
     if (width < 1130 ){
         $('.threeD').hide();
         $('.myName').show();
     } else if (width > 1130){
         $('.threeD').show();
+        $('.myName').hide();
     }
 })

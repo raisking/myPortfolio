@@ -265,9 +265,9 @@
 	#social-media-icon i{
 		font-size: 20px;
 }
-	#full-stack{
-	
-	}
+.about-me h2{
+	text-align: center;
+}
 	#full-stack h1{	
 		font-size: 2em;
 		text-transform: uppercase;
@@ -394,3 +394,72 @@
 	transform: perspective(1000px) rotate(4deg) skew(25deg) translate(20px,-20px);
 	box-shadow: -50px 50px 50px #fff;
 }
+
+
+/* Skill Hover Effect Area  */
+#skillHoverWrapper{
+	background-color: rgb(37, 156, 172);
+}
+.skillHoverEffect{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	height: 400px;
+}
+
+.skillHoverEffect  li{
+  list-style: none;
+  margin: 0 60px;
+
+}
+.skillHoverEffect li a{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 40px;
+  color: #000;
+  line-height: 80px;
+  transition: .7s;
+  position: absolute;
+  display: block;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  background: #fff;
+  transform: perspective(100px) rotate(-0deg) skew(15deg) translate(0,0);
+  transition: .7s;
+  box-shadow: -20px 20px 10px rgba(0,0,0,.5);
+}
+
+.skillHoverEffect li a:before
+{
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: -20px;
+  height: 100%;
+  width: 20px;
+  background: #b1b1b1;
+  transition: .5s;
+  transform: rotate(0deg) skewY(-45deg);
+}
+.skillHoverEffect li a:after
+{
+  content: '';
+  position: absolute;
+  bottom: -20px;
+  left: -10px;
+  height: 20px;
+  width: 100%;
+  background: #b1b1b1;
+  transition: .5s;
+  transform: rotate(0deg) skewX(-45deg);
+}
+.skillHoverEffect li a:hover{
+   transform: perspective(1000px) rotate(-0deg) skew(25deg) translate(20px,-20px);
+    box-shadow: -50px 50px 50px rgba(0,0,0,.5);
+}
+.framework h2, h4{
+	text-align: center;
+}
+
+

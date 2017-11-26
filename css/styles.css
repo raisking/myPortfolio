@@ -6,6 +6,7 @@
 @import url('https://fonts.googleapis.com/css?family=Sigmar+One');
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
 @import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display');
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
 
 * {
 	box-sizing: border-box;
@@ -30,10 +31,9 @@ a:hover{
 	text-decoration: none;	
 }
 h2{
-	text-shadow: 1px 1px 3px rgb(209, 171, 113);
-	font-family: 'Sigmar One', cursive;
+	text-shadow: 1px 1px 5px rgb(179, 176, 176);
+	font-family: 'Russo One', sans-serif;	
 }
-
 
 #header-div{
 	background-color: #fff;
@@ -49,7 +49,7 @@ h2{
 	color: #000;
 }
 .is-sticky #header-div{
-	background-color: #07a5a6;
+	background-color: rgb(3, 124, 189);
 	height: 70px;
 
 }
@@ -85,18 +85,22 @@ h2{
 }
 #intro-full-stack{
 	background-color: #000;
-	opacity: .7;
+
 	color: #fff;
 	height: 100vh;
-	/* background-image: url(../images/southkorea.jpg);
+	
+	background-image: url(../images/mountain.jpeg);
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover; */
+	background-size: cover;
+	background-attachment: fixed; 
+	/* opacity: .8; */
 
 }
 #full-stack{
 	/* border: 1px solid #fff;
 	background-color: rgb(122, 0, 0); */
+
 	border-radius: 40px;
 	margin-top: 100px;
 	padding: 20px;
@@ -197,13 +201,13 @@ h2{
 .name-pic{
 	padding-top: 50px;
 	text-align: center;
-
 }
 .name-pic h1{
 	font-size: 5rem;
 }
 .name-pic h3{
 	font-size: bold;
+	color: rgb(146, 121, 11);
 }
 #btn-resume{
 	padding: 10px;
@@ -372,7 +376,9 @@ ul.colors li:nth-child(7) {
 	padding-top: 50px;
 	padding-left: 20px;
 }
-
+.myName{
+	text-align: center;
+}
 .myname li {
 	text-align: center;
 	vertical-align: middle;
@@ -741,9 +747,13 @@ hr{
   -vendor-animation-iteration-count: infinite;
 } */
 #md-div{
-	background-color: rgb(43, 109, 148);
-	  height: auto;
-	  padding-bottom: 20px;
+	background-image: url(../images/mountain.jpeg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed; 
+	height: auto;
+	padding-bottom: 20px;
 }
 
 #md-div p{	
@@ -771,16 +781,18 @@ hr{
  /* Projects Flexbox Container  */
 
 #my-recent-project{
-	background-color: #b1b1b1;
-	color: #000;
-	text-align: center;
-	text-transform: uppercase;
-	font-weight: bold;
-	
-}
+	margin: -15px 0;
+} 
+
  #myprojectContainer{
-	 background-color: #b1b1b1;
-	
+	 margin: 0;
+	 padding-top: 10px;
+	 background-color: #fff;
+	 /* background-image: url("https://images.unsplash.com/photo-1459382421372-e53a1e0f9266?auto=format&fit=crop&w=1652&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D");
+	 background-position: center;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 background-attachment: fixed;  */
  }
 
 .projectFlexbox{
@@ -798,8 +810,8 @@ hr{
 	width: 360px;	
 	height: auto;
 	margin: 20px 0;
-    box-shadow: 0px 5px 5px 2px rgb(66, 36, 36);
-	border: 2px solid rgb(212, 205, 205);		
+    /* box-shadow: 2px 2px 2px 4px rgb(202, 225, 238); */
+	border: 2px solid rgb(121, 120, 120);		
 	
 
 }
@@ -958,10 +970,9 @@ hr{
                        CONTACT
 ======================================================*/
 #information {
-	background-color: rgb(6, 7, 7);
+	background-color: rgb(4, 112, 112);
     padding: 30px 0;
-	border-top: 5px solid #313539;
-	opacity: 0.7;	
+	
 }
 
 #contact-left {
@@ -1033,10 +1044,6 @@ form .form-control {
     margin-bottom: 20px;
     color: #fff;
 }
-
-
-
-
 #frameworks{
 	padding: 60px 0;
 	
@@ -1045,10 +1052,10 @@ form .form-control {
 	padding-top:50px;
 }
 #copyright{
-	background-color: #000;
+	background-color: rgb(0, 0, 0);
 	color: #fff;
 	padding: 10px;
-	opacity: 0.8;
+
 
 }
 #copyright p {
@@ -1206,5 +1213,6 @@ form .form-control {
 	background-color: #fff;
 	padding-bottom: 90px;
 	padding-top: 30px;	
+	margin: 0;
 
 }
