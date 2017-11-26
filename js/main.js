@@ -19,7 +19,7 @@ var randomQuote = [
 var random = Math.floor(Math.random() * randomQuote.length);
 document.getElementById('random-quote').innerHTML = randomQuote[random];    
 
-$(document).on('click', 'a[href^="#resume-div"],a[href^="#my-recent-project"], a[href^="#contact-right"]', function (event) {
+$(document).on('click','a[href^="#intro-full-stack"],a[href^="#my-recent-project"], a[href^="#contact-right"]', function (event) {
     event.preventDefault();
 
     $('html, body').animate({
