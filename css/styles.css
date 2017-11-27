@@ -103,7 +103,7 @@ h2{
 	background-color: rgb(122, 0, 0); */
 
 	border-radius: 40px;
-	margin-top: 100px;
+	margin-top: 130px;
 	padding: 20px;
 }
 
@@ -1256,4 +1256,16 @@ form .form-control {
 	margin: 0;
 	
 
+}
+
+.seeMore{
+	margin-top: 100px;
+	text-align: center;
+	transform: rotate(270deg);
+	font-size: 3em;
+	color: #000;
+}
+.seeMore:hover{
+	color: rgb(26, 24, 24);
+	font-size: 3.4em;
 }
