@@ -80,6 +80,7 @@ h2{
 	background-color: #fff;
 	color: #000;
 	padding-bottom: 100px;	
+	height: 100vh;
 	/* border: 10px solid rgb(7, 115, 129); */
 
 
@@ -125,7 +126,7 @@ h2{
 	text-shadow: 5px 2px 2px rgba(255, 255, 255, 0.5);
 }
 .inside-padding{
-	padding-top: 20px;
+	padding-top: 100px;
 	padding-bottom: 40px;
 	/* border: 5px solid #000;
 	background-color: #ccc; */

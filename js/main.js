@@ -13,13 +13,12 @@ var randomQuote = [
     "\"It does not matter how slowly you go as long as you do not stop. - Confucius\"",
     "\"It always seems impossible until it's done. - Nelson Mandela\"",
     "\" “You just can’t beat the person who never gives up.” —Babe Ruth\""
-   
 ];
 
 var random = Math.floor(Math.random() * randomQuote.length);
 document.getElementById('random-quote').innerHTML = randomQuote[random];    
 
-$(document).on('click','a[href^="#intro-full-stack"],a[href^="#my-recent-project"], a[href^="#contact-right"]', function (event) {
+$(document).on('click','a[href^="#header-div"], a[href^="#intro-full-stack"],a[href^="#my-recent-project"], a[href^="#contact-right"]', function (event) {
     event.preventDefault();
 
     $('html, body').animate({
