@@ -387,7 +387,7 @@ ul.colors li:nth-child(7) {
 
 .about-me{
 	background-color: none;
-	padding: 50px 20px 114px 50px;
+	padding: 50px 20px 92px 50px;
 	/* border-left: 1px solid #ccc; */
 	border-bottom-right-radius: 50px;
 	border-top-right-radius: 50px;
@@ -1219,7 +1219,7 @@ form .form-control {
 #skillContainer{
 	display: flex;
 	flex-wrap: wrap;
-	background-color: #ccc;
+	background-color: #fff;
 	justify-content: space-evenly;
 	/* border: 1px solid rgb(121, 120, 120); */
 	padding: 10px 0;
@@ -1231,7 +1231,7 @@ form .form-control {
 #skillContainer-1{
 	display: flex;
 	flex-wrap: wrap;
-	background-color: #ccc;
+	background-color: #fff;
 	justify-content: space-evenly;
 	/* border: 1px solid rgb(121, 120, 120); */
 	padding: 10px 0;
