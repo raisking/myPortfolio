@@ -39,3 +39,5 @@ $(window).resize(function(){
         $('.myName').hide();
     }
 })
+$('#prakashrai-color').addClass('animated fadeIn');
+$('.about-me').addClass('animated fadeIn');
