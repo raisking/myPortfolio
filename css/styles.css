@@ -766,11 +766,12 @@ hr{
   -vendor-animation-iteration-count: infinite;
 } */
 #md-div{
-	background-image: url(../images/mountain.jpeg);
+	/* background-image: url(../images/mountain.jpeg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-attachment: fixed; 
+	background-attachment: fixed;  */
+	background-color: #3F729B;
 	height: auto;
 	padding-bottom: 20px;
 }
@@ -990,7 +991,7 @@ hr{
                        CONTACT
 ======================================================*/
 #information {
-	background-color: rgb(0, 3, 3);
+	background-color: #3F729B;
     padding: 30px 0;
 	
 }
@@ -1225,7 +1226,7 @@ form .form-control {
 	padding: 10px 0;
 	margin-top: 10px;
 	border-top-right-radius: 40px;
-	box-shadow: 2px -2px 5px rgb(105, 103, 103);	
+	box-shadow: 2px -2px 5px #3F729B;	
 }
 
 #skillContainer-1{
@@ -1237,7 +1238,7 @@ form .form-control {
 	padding: 10px 0;
 	margin-top: 10px;
 	border-bottom-left-radius: 40px;
-	box-shadow: -2px 2px 5px rgb(105, 103, 103);
+	box-shadow: -2px 2px 5px #3F729B;	
 		
 }
 #skillItemContainer{
@@ -1263,9 +1264,9 @@ form .form-control {
 	margin-top: 100px;
 	text-align: center;
 	font-size: 3.5em;
-	color: rgb(253, 247, 247);
+	color: rgb(11, 151, 86);
 }
 .seeMore:hover{
-	color: rgb(26, 24, 24);
+	color: rgb(136, 15, 15);
 	font-size: 3.4em;
 }
