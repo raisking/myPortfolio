@@ -49,7 +49,7 @@ h2{
 	color: #000;
 }
 .is-sticky #header-div{
-	background-color: rgb(3, 124, 189);
+	background-color: #0099CC;
 	height: 70px;
 
 }
@@ -765,18 +765,18 @@ hr{
   -vendor-animation-delay: 2s;
   -vendor-animation-iteration-count: infinite;
 } */
-#md-div{
+#randomQuoteDiv{
 	/* background-image: url(../images/mountain.jpeg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;  */
-	background-color: #3F729B;
+	background-color: #0099CC;
 	height: auto;
 	padding-bottom: 20px;
 }
 
-#md-div p{	
+#randomQuoteDiv p{	
 		color: rgb(0, 0, 0);
 		padding-top: 20px;
 		font-size: 1.4em;
@@ -831,8 +831,8 @@ hr{
 	height: auto;
 	margin: 20px 0;
     /* box-shadow: 2px 2px 2px 4px rgb(202, 225, 238); */
-	border: 2px solid rgb(121, 120, 120);		
-	
+	border: 2px solid rgb(109, 107, 107);		
+	box-shadow: 2px -2px 15px rgb(170, 182, 194);
 
 }
 .projectDescriptionContainerFlexbox{
@@ -946,7 +946,7 @@ hr{
 }
 #social-media-icon ul li a {
     display: block;
-    color: rgb(213, 228, 231);
+    color: rgb(25, 27, 27);
     padding: 5px;
     transition: transform .5s ease-in-out;
 }
@@ -1226,7 +1226,7 @@ form .form-control {
 	padding: 10px 0;
 	margin-top: 10px;
 	border-top-right-radius: 40px;
-	box-shadow: 2px -2px 5px #3F729B;	
+	box-shadow: 2px -2px 15px rgb(170, 182, 194);	
 }
 
 #skillContainer-1{
@@ -1238,7 +1238,7 @@ form .form-control {
 	padding: 10px 0;
 	margin-top: 10px;
 	border-bottom-left-radius: 40px;
-	box-shadow: -2px 2px 5px #3F729B;	
+	box-shadow: -2px 2px 5px rgb(170, 182, 194);
 		
 }
 #skillItemContainer{
@@ -1256,8 +1256,6 @@ form .form-control {
 	padding-bottom: 90px;
 	padding-top: 30px;	
 	margin: 0;
-	
-
 }
 
 .seeMore{
