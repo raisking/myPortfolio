@@ -1262,9 +1262,8 @@ form .form-control {
 .seeMore{
 	margin-top: 100px;
 	text-align: center;
-	transform: rotate(270deg);
-	font-size: 3em;
-	color: #000;
+	font-size: 3.5em;
+	color: rgb(253, 247, 247);
 }
 .seeMore:hover{
 	color: rgb(26, 24, 24);
