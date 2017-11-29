@@ -1220,7 +1220,7 @@ form .form-control {
 	background-color: #fff;
 	justify-content: center;
 	/* border: 1px solid rgb(121, 120, 120); */
-	padding: 10px 10px;
+	padding: 10px 30px;
 	margin-top: 10px;
 	border-top-right-radius: 40px;
 	box-shadow: 2px -2px 15px rgb(170, 182, 194);
@@ -1240,7 +1240,7 @@ form .form-control {
 	background-color: #fff;
 	justify-content: center;
 	/* border: 1px solid rgb(121, 120, 120); */
-	padding: 10px 10px;
+	padding: 10px 30px;
 	margin-top: 120px;
 	border-bottom-left-radius: 40px;
 	box-shadow: -2px 2px 5px rgb(170, 182, 194);
@@ -1251,6 +1251,7 @@ form .form-control {
 	margin: 10px;	
 }
 #skillItemContainer img{
+	margin: 0px 10px;
 	border-radius: 10px;
 	transition: all 3s ease-in-out;		
 	}
