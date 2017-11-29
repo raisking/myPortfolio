@@ -839,35 +839,37 @@ hr{
 }
 .projectDescriptionContainerFlexbox{
 	padding-left: 20px;
-	height: 130px;	
+	height: 110px;	
 }
 .projectIconFlexbox{
-	background-color: none;
+	/* border: 1px solid red; */
+	background-color:#0099CC;
 	padding-left: 50px;
-	height: 50px;
+	height: 40px;
 }
 .projectIconFlexbox img {
 	margin-top: 5px;
 	margin-left: 10px;
 	width: 25px;
-
 }
 
 .projectHeaderflexbox{
 	border:1px solid rgb(168, 166, 166);
-	background-color: #3F729B;
+	background-color: #0099CC;
+
+	height: 40px;
 	
 }
 .projectHeaderflexbox h3{
 	font-weight: bold;	
 	color: rgb(255, 255, 255);
+	font-size: 2rem;
+	position: relative;
+	top: -12px;
 }
 .img-container{
     position: relative;
 	overflow: hidden;
-	/* border: 1px solid #000;
-	border-top: 2px solid #000; */
-
 }
 .img-container img{
 	height: 250px;
@@ -907,18 +909,7 @@ hr{
 .btn-jeopardy{
 	align-content: center;
 }
-.projectDescriptionContainer{
-	background-color: rgb(80, 173, 190);
-	height: 150px;
-	width: 400px;
-	border: 1px solid red;
-	box-sizing: content-box;
-	
-}
-.projectHeader{
-	border: 1px solid blue;
-	background-color: rgb(34, 153, 143);
-}
+
 .des-jeopardy-top{
 	background-color: #000;
 	color: #fff;
