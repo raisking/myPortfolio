@@ -957,7 +957,7 @@ hr{
 
 .ksu, .ga, .ctc{
 	/* text-transform: uppercase; */
-	font-weight: bold;
+	font-weight: bold; 
 	color: #0099CC;
 }
 .project-icons{
@@ -979,10 +979,12 @@ hr{
 #footer-div p{
 	font-size: 1em;
 }
-#prakashrai-color{
-	color: #f00;
+#footer-copyrights p{
+	font-size: 1.6rem;
 }
-
+#prakashrai-color{
+	color: #ff4444;
+}
 
 /*====================================================
                        CONTACT
@@ -1073,11 +1075,11 @@ form .form-control {
 	background-color: #212121;
 	color: #fff;
 	padding: 10px;
-
-
 }
 #copyright p {
+	font-weight: bold;
 	text-align: center;
+
 }
 /* .col-md-3{
 	margin: 20px;
@@ -1097,7 +1099,6 @@ form .form-control {
 	height: 100vh;
 	background-color: black;
 }
-
 #projectsContainer{
 	border: 1px solid red;
 }
