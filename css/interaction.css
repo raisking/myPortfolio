@@ -424,8 +424,7 @@
   box-shadow: -20px 20px 10px rgba(0,0,0,.5);
 }
 
-.skillHoverEffect li a:before
-{
+.skillHoverEffect li a:before{
   content: '';
   position: absolute;
   top: 10px;
@@ -436,8 +435,7 @@
   transition: .5s;
   transform: rotate(0deg) skewY(-45deg);
 }
-.skillHoverEffect li a:after
-{
+.skillHoverEffect li a:after{
   content: '';
   position: absolute;
   bottom: -20px;
