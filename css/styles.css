@@ -1218,9 +1218,9 @@ form .form-control {
 	display: flex;
 	flex-wrap: wrap;
 	background-color: #fff;
-	justify-content: space-evenly;
+	justify-content: center;
 	/* border: 1px solid rgb(121, 120, 120); */
-	padding: 10px 0;
+	padding: 10px 10px;
 	margin-top: 10px;
 	border-top-right-radius: 40px;
 	box-shadow: 2px -2px 15px rgb(170, 182, 194);
@@ -1238,10 +1238,9 @@ form .form-control {
 	display: flex;
 	flex-wrap: wrap;
 	background-color: #fff;
-	justify-content: space-evenly;
+	justify-content: center;
 	/* border: 1px solid rgb(121, 120, 120); */
-
-	padding: 10px 0;
+	padding: 10px 10px;
 	margin-top: 120px;
 	border-bottom-left-radius: 40px;
 	box-shadow: -2px 2px 5px rgb(170, 182, 194);
