@@ -41,8 +41,8 @@ h2{
 	text-align: center;
 	transition: 1s;
 	padding-top: 10px;
-	font-weight: bold;
-		
+	font-weight: bold;	
+	display: flex;
 }
 
 #header-div ul li a{
@@ -86,12 +86,11 @@ h2{
 
 }
 #intro-full-stack{
-	background-color: #000;
-
+	/* background-color: #000; */
+	background: rgba(0,0,0, .6);
 	color: #fff;
 	height: 100vh;
-	
-	background-image: url(../images/mountain.jpeg);
+	/* background-image: url(../images/galaxy.jpeg); */
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -134,8 +133,8 @@ h2{
 
 }
 #skill-page, #mySkills{
-	background-color: #fff;
-	/* opacity: 0.7; */
+	border: none;
+
 }
 #skill-page{
 	height: 100vh;
@@ -401,6 +400,7 @@ ul.colors li:nth-child(7) {
 
 .myName{
 	text-align: center;
+	
 }
 .myname li {
 	text-align: center;
@@ -772,11 +772,6 @@ hr{
   -vendor-animation-delay: 2s;
   -vendor-animation-iteration-count: infinite;
 } */
-#randomQuoteDiv{
-	background: linear-gradient(90deg, #fff, #ccc);
-	height: auto;
-
-}
 
 #randomQuoteDiv p{	
 		color: rgb(0, 0, 0);
@@ -1218,10 +1213,10 @@ form .form-control {
 #skillContainer{
 	display: flex;
 	flex-wrap: wrap;
-	background-color: #fff;
+	/* background-color: #fff; */
 	justify-content: center;
 	/* border: 1px solid rgb(121, 120, 120); */
-	padding: 10px 30px;
+	padding: 5px 30px;
 	margin-top: 10px;
 	border-top-right-radius: 40px;
 	box-shadow: 2px -2px 15px rgb(170, 182, 194);
@@ -1238,10 +1233,10 @@ form .form-control {
 #skillContainer-1{
 	display: flex;
 	flex-wrap: wrap;
-	background-color: #fff;
+	/* background-color: #fff; */
 	justify-content: center;
 	/* border: 1px solid rgb(121, 120, 120); */
-	padding: 10px 30px;
+	padding: 5px 30px;
 	margin-top: 120px;
 	border-bottom-left-radius: 40px;
 	box-shadow: -2px 2px 5px rgb(170, 182, 194);
@@ -1261,6 +1256,7 @@ form .form-control {
 	
 	}
 #skillWrapperContainer{
+	/* background: linear-gradient(90deg, #fff, #0099CC); */
 	background-color: #fff;
 	padding-bottom: 90px;
 	padding-top: 30px;	
@@ -1274,7 +1270,7 @@ form .form-control {
 	
 }
 .seeMore i{
-	color: #000;
+	color: #0099CC;
 	transition: all 1s ease-in-out;
 }
 .seeMore i:hover{
@@ -1304,7 +1300,8 @@ section{
   }
   .wave{
 	position: relative;
-	background: linear-gradient(90deg, #fff, #ccc);
+	background: linear-gradient(90deg, #fff, #0099CC);
+
   }
   .wave:before{
 	content: '';
@@ -1318,3 +1315,45 @@ section{
 	background-repeat: no-repeat;
 	background-size: 100% auto;
   }
+  .wave1{
+	position: relative;
+	background: linear-gradient(90deg, #fff, #0099CC);
+  }
+  .wave1:before{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 225px;
+	background: url(../images/wave1.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+  }
+  #randomQuoteDiv{
+	background: linear-gradient(90deg, #fff, #0099CC);
+	height: auto;
+
+}
+.mylogo{
+	height: 60px;
+	border-radius: 20%;
+	padding-bottom: 8px;
+	
+}
+.logoDiv{
+	display: flex;
+	width: 10%;
+	margin-right: 5px;
+}
+.navbarDiv{
+	display: flex;
+	justify-content: center;
+	height: 60px;
+	line-height: 60px;
+	width: 80%;
+}
+.navbarItems{
+	padding: 0 20px;
+}

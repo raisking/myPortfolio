@@ -16,33 +16,9 @@
 </head>
 
 <body>
-  <!-- <div class="container-fluid" id="resume-div">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8">
-
-        </div>
-        <div class="col-md-4">
-          <ul class="nav navbar-nav navbar-right" id="btn-resume">
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid" id="md-div">
-    <div class="container quote">
-      <div>
-      </div>
-      <div class="div-quote">
-        <p id="random-quote" class="text-center wow fadeInDown"> </p>
-      </div>
-    </div>
-  </div> -->
-
   <!--=============Introduction Page===================-->
   <header>
     <div class="container-fluid" id="intro-full-stack">
-
       <div class="container" id="full-stack">
         <div class="container threeD">
           <ul>
@@ -120,9 +96,26 @@
       </div>
     </div>
     <div class="container-fluid" id="header-div">
-      <ul id="nav-1">
+      <div class="logoDiv">
+          <div class="navbarItems">
+              <img class="mylogo" src="images/mylogo.png">
+          </div>
+      </div>
+      <div class="navbarDiv">
+          <div class="navbarItems">
+              <a class="link-1" href="#intro-full-stack">Home</a>
+            </div>
+            <div class="navbarItems">
+              <a class="link-1" href="#my-recent-project">Projects</a>
+            </div>
+            <div class="navbarItems">
+              <a class="link-1" href="#contact-right">Contact</a>
+            </div>
+      </div>
+
+      <!-- <ul id="nav-1">
         <li>
-         
+            <img class="mylogo" src="images/mylogo.png">
         </li>
         <li>
           <a class="link-1" href="#intro-full-stack">Home</a>
@@ -133,7 +126,7 @@
         <li>
           <a class="link-1" href="#contact-right">Contact</a>
         </li>
-      </ul>
+      </ul> -->
     </div>
     <div class="container-fluid" id="intro-div">
       <div class="container">
@@ -143,18 +136,21 @@
               alt="Profile picture"> -->
             <h2 class="wow fadeIn" data-wow-duration="4s">Education</h2>
             <a href="https://generalassemb.ly/" target="_blank">
-            <h3 class="wow fadeIn ga" data-wow-duration="4s">General Assembly</h3></a>
+              <h3 class="wow fadeIn ga" data-wow-duration="4s">General Assembly</h3>
+            </a>
             <h4 class="wow fadeIn" data-wow-duration="4s">Atlanta, GA
               <br> Web Development Immersive
               <br> Full-Stack Software Development
               <br> Aug 2017 - Nov 20</h4>
-              <a href="http://www.kennesaw.edu/" target="_blank">
-            <h3 class="wow fadeIn ksu" data-wow-duration="4s">Kennesaw State University</h3></a>
+            <a href="http://www.kennesaw.edu/" target="_blank">
+              <h3 class="wow fadeIn ksu" data-wow-duration="4s">Kennesaw State University</h3>
+            </a>
             <h4 class="wow fadeIn" data-wow-duration="4s">Marietta, GA
               <br> BSc Information Technology
               <br> 2014 - 2017</h4>
-              <a href="http://www.chattahoocheetech.edu/" target="_blank">
-            <h3 class="wow fadeIn ctc" data-wow-duration="4s">Chattahoochee Techincal College</h3></a>
+            <a href="http://www.chattahoocheetech.edu/" target="_blank">
+              <h3 class="wow fadeIn ctc" data-wow-duration="4s">Chattahoochee Techincal College</h3>
+            </a>
             <h4 class="wow fadeIn" data-wow-duration="4s">Marietta, GA
               <br>Computer Programming
               <br> June 2007 - July 2010</h4>
@@ -162,14 +158,21 @@
           <div class="col-md-8 abt">
             <div class="about-me">
               <h2 class="wow fadeIn" data-wow-delay=".3s" data-wow-duration="4s">About Me</h2>
-              <p class="des wow fadeIn" data-wow-duration="4s"><span class="i-prakas">I</span> am a <span class="full-stack">full-stack developer</span> based in Atlanta, Georgia and current student at <span class="general">General Assembly</span>. I am a
-                graduate of
-                <a href="http://www.kennesaw.edu" target="_blank"><span class="kennesaw">Kennesaw State University</span></a> seeking a challenging career in which I can hone my skills, gain a quality
-                experience, build a passion and learn new technologies.
-                <br> I specialize in <span class="full-stack">web development</span>. Through social media groups, I spend most of my <span class="full-stack">time learning and helping
-                  others</span>. By helping others, solving their problems, you retain or even improve your own knowledge.
+              <p class="des wow fadeIn" data-wow-duration="4s">
+                <span class="i-prakas">I</span> am a
+                <span class="full-stack">full-stack developer</span> based in Atlanta, Georgia and current student at
+                <span class="general">General Assembly</span>. I am a graduate of
+                <a href="http://www.kennesaw.edu" target="_blank">
+                  <span class="kennesaw">Kennesaw State University</span>
+                </a> seeking a challenging career in which I can hone my skills, gain a quality experience, build a passion and
+                learn new technologies.
+                <br> I specialize in
+                <span class="full-stack">web development</span>. Through social media groups, I spend most of my
+                <span class="full-stack">time learning and helping others
+                </span>. By helping others, solving their problems, you retain or even improve your own knowledge.
                 <br> I am interested in everything related to technology. I spend my free time watching and learning online video
-                tutorials and improving my <span class="full-stack">coding skills</span>. Besides that, I love to spend quality time with my family.
+                tutorials and improving my
+                <span class="full-stack">coding skills</span>. Besides that, I love to spend quality time with my family.
               </p>
             </div>
           </div>
@@ -180,20 +183,28 @@
   <div>
     <section class="wave"></section>
   </div>
-  
-<div class="container-fluid" id="randomQuoteDiv">
+  <div class="container-fluid" id="randomQuoteDiv">
     <h2 class="text-center">Random Quote of the Day</h2>
-      <div class="div-quote">
-        <p id="random-quote" class="text-center"> </p>
-      </div>
+    <div class="div-quote">
+      <p id="random-quote" class="text-center"> </p>
+    </div>
   </div>
-
+  <div>
+    <section class="wave1"></section>
+  </div>
   <!--===================Skill Page================-->
-  <div class="container-fluid logo-circle" id="mySkills">
+  <!-- <div class="container-fluid logo-circle" id="mySkills">
     <h2 class="wow fadeIn" data-wow-delay=".4s" data-wow-duration="4s" id="skills">Skills</h2>
     <hr>
-  </div>
+  </div> -->
+  <!-- <div>
+    <section class="wave"></section>
+  </div> -->
   <div class="container-fluid" id="skillWrapperContainer">
+    <div class="container-fluid logo-circle" id="mySkills">
+      <h2 class="wow fadeIn" data-wow-delay=".4s" data-wow-duration="4s" id="skills">Skills</h2>
+      <hr>
+    </div>
     <div class="wow slideInUp container" id="skillContainer">
       <div class="container">
         <h3 class="wow fadeIn text-center" data-wow-delay=".4s" data-wow-duration="2.5s">Software and Web Development</h3>
@@ -277,6 +288,9 @@
       </div>
     </div>
   </div>
+  <!-- <div>
+      <section class="wave1"></section>
+    </div> -->
   <!-- <div class="container-fluid" id="skillHoverWrapper">
       <div class="container framework">
           <h2>Skills</h2><hr>
@@ -431,8 +445,7 @@
           <img clas="img-responsive" src="images/icons/reactjs.svg" alt="React Js">
         </div>
         <div class="projectDescriptionContainerFlexbox">
-          <p>Online store built using Rails + React app. 
-            Implemented complete RESTful routes and Postgre SQL for the database.</p>
+          <p>Online store built using Rails + React app. Implemented complete RESTful routes and Postgre SQL for the database.</p>
           <a href="https://young-meadow-37898.herokuapp.com/" target="_blank">
             <button type="button" class="btn btn-success btn-jeopardy">
               Online Store
@@ -460,8 +473,7 @@
           <img clas="img-responsive" src="images/icons/reactjs.svg" alt="React Js">
         </div>
         <div class="projectDescriptionContainerFlexbox">
-          <p>Online store built using Rails + React app. Implemented complete RESTful
-            routes and Postgre SQL for the database.</p>
+          <p>Online store built using Rails + React app. Implemented complete RESTful routes and Postgre SQL for the database.</p>
           <a href="https://glacial-citadel-84191.herokuapp.com/" target="_blank">
             <button type="button" class="btn btn-success btn-jeopardy">
               Vagabond
@@ -490,8 +502,8 @@
           <img clas="img-responsive" src="images/icons/reactjs.svg" alt="React Js">
         </div>
         <div class="projectDescriptionContainerFlexbox">
-          <p>Record Incomes and Expenses app built using MERN stack. Implemented complete
-            RESTful routes and Mongo queries using the Mongoose module.
+          <p>Record Incomes and Expenses app built using MERN stack. Implemented complete RESTful routes and Mongo queries using
+            the Mongoose module.
           </p>
           <a href="https://expenses-tracker2017.herokuapp.com/" target="_blank">
             <button type="button" class="btn btn-success btn-jeopardy">
@@ -520,8 +532,7 @@
           <img src="images/nodejs.png" alt="Node Js">
         </div>
         <div class="projectDescriptionContainerFlexbox">
-          <p>Shopping App to list all your items built using Node/Express App 
-            with Mongo/Mongoose with complete RESTful routes.
+          <p>Shopping App to list all your items built using Node/Express App with Mongo/Mongoose with complete RESTful routes.
           </p>
           <a href="https://warm-badlands-85191.herokuapp.com/users/mainpage" target="_blank">
             <button type="button" class="btn btn-success btn-jeopardy">Shopping App</button>
@@ -549,9 +560,8 @@
           <img src="images/icons/jquery-icon.png" alt="jQuery">
         </div>
         <div class="projectDescriptionContainerFlexbox">
-          <p>Jeopardy game that allows the user to play the game of Jeopardy. 
-            Quiz game where the user gets to choose the next question by 
-            choosing from a category and then choosing a point amount.</p>
+          <p>Jeopardy game that allows the user to play the game of Jeopardy. Quiz game where the user gets to choose the next
+            question by choosing from a category and then choosing a point amount.</p>
           <a href="https://raisking.github.io/ga-project-one/" target="_blank">
             <button type="button" class="btn btn-success btn-jeopardy">
               Jeopardy</button>
@@ -664,7 +674,7 @@
       </div>
     </div>
   </div>
-  <!--=====Social Media Icon Sticky ======-->
+  <!--=====Social Media Icon Sticky == ====-->
   <div class="container">
     <div id="social-media-icon">
       <ul>

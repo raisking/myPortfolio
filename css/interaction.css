@@ -336,7 +336,8 @@
 }
 .threeD ul li{
   list-style: none;
-  margin: 0 40px;
+	margin: 0 40px;
+
 }
  .space{
 	margin-left: 20px;
@@ -453,6 +454,7 @@
 .framework h2, h4{
 	text-align: center;
 }
+
 
 
 
