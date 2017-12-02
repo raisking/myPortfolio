@@ -1313,7 +1313,6 @@ section{
 	background-size: 100% auto;
   }
   .waveSideDown{
-	border:1px solid red;
 	position: relative;
 	background: linear-gradient(90deg, #fff, #0099CC);
   }
