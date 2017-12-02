@@ -40,4 +40,4 @@ $(window).resize(function(){
     }
 })
 $('#prakashrai-color').addClass('animated fadeIn');
-$('.about-me').addClass('animated fadeIn');
+$('.about-me    ').addClass('animated fadeIn');
