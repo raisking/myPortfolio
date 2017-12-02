@@ -28,8 +28,7 @@ $(document).on('click','a[href^="#header-div"], a[href^="#intro-full-stack"],a[h
 
 
 $(".myName").hide();
-$(window).resize(function(){
-  
+$(window).resize(function(){    
     let width = $(window).width();
     if (width < 1130 ){
         $('.threeD').hide();
@@ -40,4 +39,20 @@ $(window).resize(function(){
     }
 })
 $('#prakashrai-color').addClass('animated fadeIn');
-$('.about-me    ').addClass('animated fadeIn');
+$('.about-me').addClass('animated fadeIn');
+
+$(document).ready(function(){
+    $(".scroll").hide();
+    // $(".seeMore").mouseover(
+    //     function(){
+    //         $(".scroll").show();
+    //         $(".seeMore").hide();
+    //     }
+    // )
+    // $(".scroll").mouseout(
+    //     function(){
+    //         $(".seeMore").show();
+    //         $(".scroll").hide();
+    //     }
+    // )
+})

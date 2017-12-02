@@ -86,7 +86,7 @@ h2{
 	/* background-color: #000; */
 	background: rgba(0,0,0, .6);
 	color: #fff;
-	height: 100vh;
+	min-height: 100vh;
 	/* background-image: url(../images/galaxy.jpeg); */
 	background-position: center;
 	background-repeat: no-repeat;
@@ -95,9 +95,16 @@ h2{
 	/* opacity: .8; */
 
 }
+#wrapperLandingPage{
+	border-left: 10px solid #fff;
+	border-right: 10px solid #fff;
+	margin-top: 25px;
+	border-radius: 30px;
+}
 #full-stack{
-	/* border: 1px solid #fff;
-	background-color: rgb(122, 0, 0); */
+
+	/* background-color: rgb(122, 0, 0); */
+	
 
 	border-radius: 40px;
 	margin-top: 130px;
