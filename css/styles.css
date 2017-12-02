@@ -40,35 +40,32 @@ h2{
 	color: #000;
 	text-align: center;
 	transition: 1s;
-	padding-top: 10px;
 	font-weight: bold;	
 	display: flex;
 }
 
-#header-div ul li a{
-	color: #000;
-}
+
 .is-sticky #header-div{
 	background-color: #0099CC;
 	height: 70px;
 
 }
-.is-sticky #header-div ul li a{
-	color: #fff;
-}
+	/* .is-sticky #header-div ul li a{
+		color: #fff;
+	} */
 #cover-div{
 	background-color: white;
   height: 500px;
 }
-#header-div ul li{
+/* #header-div ul li{
 	list-style-type: none;
 	display: inline-block;
 	padding: 12px;
-}
-#header-div ul li a:hover{
+} */
+/* #header-div ul li a:hover{
 	color: red;
 	text-decoration: none;
-}
+} */
 
 #mypic{
 	/*border-radius: 50%;*/
@@ -1339,7 +1336,8 @@ section{
 .mylogo{
 	height: 60px;
 	border-radius: 20%;
-	padding-bottom: 8px;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
 	
 }
 .logoDiv{
@@ -1355,5 +1353,12 @@ section{
 	width: 80%;
 }
 .navbarItems{
-	padding: 0 20px;
+	padding: 5px 15px 0 10px;
+	/* border: 1px solid red; */
+
+	
+}
+.navbarItems a{
+	color: #000;
+	
 }
