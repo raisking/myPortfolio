@@ -940,7 +940,7 @@ hr{
 }
 #social-media-icon ul li a:hover {
 	color: #FF8800;
-	transform: rotate(360deg)
+	transform: rotate(720deg)
 }
 #social-media-icon i {
     font-size: 30px;
