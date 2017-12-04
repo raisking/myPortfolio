@@ -83,8 +83,7 @@ h2{
 
 }
 #intro-full-stack{
-	/* background-color: #000; */
-	background: rgba(0,0,0, .6);
+	background: rgba(0,0,0, .8);
 	color: #fff;
 	min-height: 100vh;
 	/* background-image: url(../images/galaxy.jpeg); */
