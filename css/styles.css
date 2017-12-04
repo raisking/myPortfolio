@@ -17,7 +17,7 @@
 }
 body {
 	font-family: 'Quicksand', sans-serif;
-	background-image: url("https://www.provenmethod.com/wp-content/uploads/2017/01/TPM-Homepage-Top-White-Gradient.jpg");
+	background-image: url(../images/galaxy.jpeg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
