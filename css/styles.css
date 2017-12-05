@@ -945,6 +945,10 @@ hr{
 #social-media-icon i {
     font-size: 30px;
 }
+#social-media-icon .text-center{
+
+	font-size: 1.2rem;
+}
 /*=====Sticky Social Media Icon End*/
 
 .ksu, .ga, .ctc{
@@ -1377,4 +1381,7 @@ section{
 .navbarItems a{
 	color: #000;
 	
+}
+#myresume{
+	color: red;
 }
