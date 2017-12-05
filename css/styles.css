@@ -1261,11 +1261,19 @@ form .form-control {
 }
 
 .seeMore{
+	border: 1px solid red;	
 	margin-top: 100px;
 	text-align: center;
 	font-size: 3.5em;
-	
 }
+.scroll{
+	border: 1px solid red;		
+	margin-top: 100px;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+
 .seeMore i{
 	color: #0099CC;
 	transition: all 1s ease-in-out;

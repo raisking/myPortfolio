@@ -43,16 +43,16 @@ $('.about-me').addClass('animated fadeIn');
 
 $(document).ready(function(){
     $(".scroll").hide();
-    // $(".seeMore").mouseover(
-    //     function(){
-    //         $(".scroll").show();
-    //         $(".seeMore").hide();
-    //     }
-    // )
-    // $(".scroll").mouseout(
-    //     function(){
-    //         $(".seeMore").show();
-    //         $(".scroll").hide();
-    //     }
-    // )
+    $(".seeMore").mouseover(
+        function(){
+            $(".scroll").show();
+            $(".seeMore").hide();
+        }
+    )
+    $(".scroll").mouseout(
+        function(){
+            $(".seeMore").show();
+            $(".scroll").hide();
+        }
+    )
 })
