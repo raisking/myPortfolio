@@ -1261,16 +1261,22 @@ form .form-control {
 }
 
 .seeMore{
-	border: 1px solid red;	
+	position: relative;
+	left: 50%;	
 	margin-top: 100px;
 	text-align: center;
 	font-size: 3.5em;
+	width: 50px;
+	height: 60px;	
 }
 .scroll{
-	border: 1px solid red;		
+	position: relative;
+	left: 50%;	
 	margin-top: 100px;
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 1em;
+	width: 50px;
+	height: 60px;
 }
 
 
