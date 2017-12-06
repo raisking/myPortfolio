@@ -27,17 +27,17 @@ $(document).on('click','a[href^="#header-div"], a[href^="#intro-full-stack"],a[h
 });
 
 
-$(".myName").hide();
-$(window).resize(function(){    
-    let width = $(window).width();
-    if (width < 1130 ){
-        $('.threeD').hide();
-        $('.myName').show();
-    } else if (width > 1130){
-        $('.threeD').show();
-        $('.myName').hide();
-    }
-})
+// $(".myName").hide();
+// $(window).resize(function(){    
+//     let width = $(window).width();
+//     if (width < 1130 ){
+//         $('.threeD').hide();
+//         $('.myName').show();
+//     } else if (width > 1130){
+//         $('.threeD').show();
+//         $('.myName').hide();
+//     }
+// })
 $('#prakashrai-color').addClass('animated fadeIn');
 $('.about-me').addClass('animated fadeIn');
 
