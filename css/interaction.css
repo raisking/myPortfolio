@@ -305,7 +305,10 @@
 	}
 	.threeD ul{
 	display: none;
-	}
+  }
+  .mylogo{
+    margin-right: 50px;
+  }
 
 }
 
