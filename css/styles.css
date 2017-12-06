@@ -106,6 +106,7 @@ h2{
 }
 
 #full-stack h1{	
+	color: #ccc;
 	font-family: 'Orbitron', sans-serif;
 	font-size: 6em;
 	text-transform: uppercase;
@@ -114,6 +115,7 @@ h2{
 	padding-bottom: 50px;
 }
 #full-stack h2{	
+	color: #ccc;
 	font-family: 'Orbitron', sans-serif;
 	font-size: 3.5em;
 	text-transform: uppercase;
@@ -1364,7 +1366,7 @@ section{
 	display: flex;
 	width: auto;
 	margin-right: 5px;
-	padding: 0;
+	padding: 0;	
 }
 .navbarDiv{
 	display: flex;
