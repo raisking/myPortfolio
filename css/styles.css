@@ -1288,11 +1288,11 @@ form .form-control {
 	transition: all 1s ease-in-out;
 }
 .seeMore i:hover{
-	color: rgb(255, 255, 255);
+	color: rgb(12, 212, 62);
 }
 .seeMore:hover{
 	color: rgb(136, 15, 15);
-	font-size: 3.4em;
+	font-size: 4em;
 }
 .logo{
 	width:40px;
