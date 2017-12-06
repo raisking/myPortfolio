@@ -274,7 +274,7 @@
 		font-weight: bolder;
 	}
 	#full-stack h2{	
-		font-size: 14px;
+		font-size: 18px;
 		text-transform: uppercase;
 
 	}
@@ -305,9 +305,6 @@
 	}
 	.threeD ul{
 	display: none;
-  }
-  .mylogo{
-    margin-right: 5px;
   }
 
 }
