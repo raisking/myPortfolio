@@ -390,7 +390,7 @@ ul.colors li:nth-child(7) {
 	/* border-left: 1px solid #ccc; */
 	border-bottom-right-radius: 50px;
 	border-top-right-radius: 50px;
-	box-shadow: 15px 5px 10px #ccc;
+	box-shadow: 15px 10px 5px #ccc;
 
 }
 
@@ -1398,5 +1398,5 @@ section{
 .about-me img{
 	width: 150px;
 	border-radius: 50%;
-	border: 3px solid rgb(167, 103, 103);	
+	
 }
