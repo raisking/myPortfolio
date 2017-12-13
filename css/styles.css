@@ -1395,3 +1395,8 @@ section{
 	margin-left: auto;
 	margin-right: auto;
 }
+.about-me img{
+	width: 150px;
+	border-radius: 50%;
+	border: 1px solid #ccc;	
+}
