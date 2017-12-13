@@ -1398,5 +1398,5 @@ section{
 .about-me img{
 	width: 150px;
 	border-radius: 50%;
-	border: 1px solid #ccc;	
+	border: 3px solid rgb(167, 103, 103);	
 }
