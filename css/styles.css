@@ -8,6 +8,7 @@
 @import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display');
 @import url('https://fonts.googleapis.com/css?family=Russo+One');
 @import url('https://fonts.googleapis.com/css?family=Bungee');
+@import url('https://fonts.googleapis.com/css?family=Sarpanch:900');
 
 * {
 	box-sizing: border-box;
@@ -105,20 +106,20 @@ h2{
 
 #full-stack h1{	
 	color: #ccc;
-	font-family: 'Orbitron', sans-serif;
-	font-size: 6em;
+	font-family: 'Sarpanch', sans-serif;
+	font-size: 7em;
 	text-transform: uppercase;
 	font-weight: bolder;
-	text-shadow: 10px 2px 2px rgba(53, 197, 125, 0.5);
+	text-shadow: 10px 2px 2px rgba(222, 230, 226, 0.5);
 	padding-bottom: 50px;
 }
 #full-stack h2{	
 	color: #ccc;
-	font-family: 'Orbitron', sans-serif;
+	font-family: 'Sarpanch', sans-serif;
 	font-size: 3.5em;
 	text-transform: uppercase;
 	font-weight: bolder;
-	text-shadow: 5px 2px 2px rgba(73, 235, 24, 0.5);
+	text-shadow: 5px 2px 2px rgba(202, 214, 199, 0.5);
 }
 #inside-padding{
 	padding-top: 100px;
