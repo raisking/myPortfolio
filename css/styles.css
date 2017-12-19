@@ -120,8 +120,6 @@ h2{
 }
 #inside-padding{
 	padding-top: 100px;
-	/* border: 5px solid #000;
-	background-color: #ccc;  */
 	border-radius: 10px;
 
 
@@ -231,21 +229,6 @@ h2{
 	
 }
 
-/*.flex-container{
-	margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    /*flex-wrap: wrap;*/
-/*}*/
-/*.flex-box-div {
-    background-color: cornflowerblue;
-    border-radius: 5px;
-    border: 1px solid #fff;
-    width: 30%;
-    padding: 5px;
-    margin: 10px;
-    flex-direction: column;	
-}*/
 .des{
 	font-size: 1.3em;
 	padding-top: 10px;
