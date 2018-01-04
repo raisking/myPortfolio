@@ -220,7 +220,6 @@
 		margin-left: 4%;
 
 	}
-
 }
 @media (min-width: 769px) and (max-width: 1024px) { 
 	.paddinghoto-container:nth-child(2n+1) {
@@ -305,7 +304,7 @@
 	}
 	.threeD ul{
 	display: none;
-  }
+  } 
 
 }
 
