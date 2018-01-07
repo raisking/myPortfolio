@@ -548,7 +548,6 @@ fieldset {
 /*================Photo transition===========================*/
 
 #photo-transition{
-	/* z-index: -1111; */
 	background-color: #fff;
   	background-position: center;
   	background-repeat: no-repeat;
