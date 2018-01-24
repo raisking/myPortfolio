@@ -9,7 +9,8 @@
 @import url('https://fonts.googleapis.com/css?family=Russo+One');
 @import url('https://fonts.googleapis.com/css?family=Bungee');
 @import url('https://fonts.googleapis.com/css?family=Sarpanch:900');
-
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+@import url('https://fonts.googleapis.com/css?family=Monoton');
 * {
 	box-sizing: border-box;
 	text-decoration: none;
@@ -19,12 +20,12 @@
 }
 body {
 	font-family: 'Quicksand', sans-serif;
-	background-image: url(../images/galaxy.jpeg);
+	/* background-image: url(../images/galaxy.jpeg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed; 
-	text-decoration: none;
+	text-decoration: none; */
   }
 a{
 	color: rgb(0, 0, 102);
@@ -81,19 +82,34 @@ h2{
 	padding-bottom: 100px;	
 	/* border: 10px solid rgb(7, 115, 129); */
 }
+#landingpageh2 h2{
+	position: relative;
+	top: 200px;
+	font-family: 'Monoton', cursive;
+	font-size: 3em;
+
+}
 #intro-full-stack{
+	
 	background: rgba(0,0,0, .8);
 	color: #fff;
 	min-height: 100vh;
-	/* background-image: url(../images/galaxy.jpeg); */
+	background-image: url(../images/mypic.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed; 
-	/* opacity: .8; */
+	opacity: .4;
 
 }
-
+#landingpage{
+	min-height: 100vh;
+	background-image: url(../images/landingpage.jpeg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* background-attachment: fixed;  */
+}
 #full-stack{
 	/* background-color: rgb(122, 0, 0); */
 	border-radius: 40px;
@@ -102,7 +118,7 @@ h2{
 }
 
 #full-stack h1{	
-	color: #fff;
+	color: rgb(6, 29, 73);
 	font-family: 'Sarpanch', sans-serif;
 	font-size: 7em;
 	text-transform: uppercase;
@@ -111,7 +127,7 @@ h2{
 	padding-bottom: 50px;
 }
 #full-stack h2{	
-	color: #fff;
+	color: rgb(3, 36, 23);
 	font-family: 'Sarpanch', sans-serif;
 	font-size: 3.5em;
 	text-transform: uppercase;
