@@ -9,8 +9,7 @@
 @import url('https://fonts.googleapis.com/css?family=Russo+One');
 @import url('https://fonts.googleapis.com/css?family=Bungee');
 @import url('https://fonts.googleapis.com/css?family=Sarpanch:900');
-@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
-@import url('https://fonts.googleapis.com/css?family=Monoton');
+
 * {
 	box-sizing: border-box;
 	text-decoration: none;
@@ -82,11 +81,10 @@ h2{
 	padding-bottom: 100px;	
 	/* border: 10px solid rgb(7, 115, 129); */
 }
-#landingpageh2 h2{
+#landingpageh2 h1{
 	position: relative;
 	top: 200px;
-	font-family: 'Monoton', cursive;
-	font-size: 3em;
+	font-size: 4em;
 
 }
 #intro-full-stack{
@@ -216,10 +214,6 @@ h2{
 	padding-top: 50px;
 	padding-bottom: 20px;
 	text-align: center;
-	/* border: 1px solid #ccc; */
-	border-top-left-radius: 50px;
-	border-bottom-left-radius: 50px;
-	box-shadow: -15px 5px 10px #ccc;
 }
 #name-pic h1{
 	font-size: 5rem;
@@ -369,10 +363,6 @@ ul.colors li:nth-child(7) {
 .about-me{
 	background-color: none;
 	padding: 50px 20px 65px 50px;
-	/* border-left: 1px solid #ccc; */
-	border-bottom-right-radius: 50px;
-	border-top-right-radius: 50px;
-	box-shadow: 10px -5px 5px #ccc;
 }
 .myName{
 	text-align: center;
@@ -1030,7 +1020,7 @@ form .form-control {
 	padding-top:50px;
 }
 #copyright{
-	background-color: #212121;
+	background-color: #3F729B;
 	color: #fff;
 	padding: 10px;
 }
@@ -1344,6 +1334,7 @@ section{
 }
 .navbarItems a{
 	color: #000;
+
 	
 }
 #myresume{
@@ -1355,7 +1346,18 @@ section{
 	margin-right: auto;
 }
 .about-me img{
-	width: 150px;
+	width: 120px;
 	border-radius: 50%;
+	border: 3px solid #ccc;
 	
+}
+#gradlogo{
+	width: 150px;
+	margin: 0 auto;
+}
+#myresumelink{
+	border-radius: 20px;
+	padding: 15px;
+	color: #000;
+
 }
