@@ -1323,7 +1323,7 @@ section{
 }
 .navbarDiv{
 	display: flex;
-	justify-content: center;
+	justify-content: flex-end;
 	height: 60px;
 	line-height: 60px;
 	width: 80%;
@@ -1359,5 +1359,6 @@ section{
 	border-radius: 20px;
 	padding: 15px;
 	color: #000;
+
 
 }
