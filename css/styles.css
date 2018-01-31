@@ -75,7 +75,7 @@ h2{
 	margin: 0 auto;
 }
 #intro-div{
-	/* padding-top: 2\0px; */
+	padding-top: 80px;
 	background-color: #fff;
 	color: #000;
 	padding-bottom: 100px;	
@@ -132,11 +132,8 @@ h2{
 	font-weight: bolder;
 	text-shadow: 5px 2px 2px rgba(202, 214, 199, 0.5);
 }
-#inside-padding{
-	padding-top: 100px;
-	border-radius: 10px;
-
-
+.landingpagediv{
+	height: 80vh;
 }
 #skill-page, #mySkills{
 	border: none;
@@ -210,9 +207,9 @@ h2{
 	padding-top: 30px;
 }
 #name-pic{
-	background-color:none;
-	padding-top: 50px;
-	padding-bottom: 20px;
+	/* background-color: rgb(86, 86, 248); */
+	/* padding-top: 50px;
+	padding-bottom: 20px; */
 	text-align: center;
 }
 #name-pic h1{
@@ -362,7 +359,7 @@ ul.colors li:nth-child(7) {
 
 .about-me{
 	background-color: none;
-	padding: 50px 20px 65px 50px;
+	padding-right: 150px;
 }
 .myName{
 	text-align: center;
@@ -778,9 +775,12 @@ hr{
     /* box-shadow: 2px 2px 2px 4px rgb(202, 225, 238); */
 	border: 2px solid rgb(168, 166, 166);		
 	box-shadow: 2px 5px 11px rgb(170, 182, 194);
-	border-radius: 
+}
+.projectFlexboxItem:hover{
+	border: 2px solid rgb(4, 178, 246);		
 
 }
+
 .projectDescriptionContainerFlexbox{
 	padding-left: 20px;
 	height: 130px;	
@@ -1349,6 +1349,7 @@ section{
 	width: 120px;
 	border-radius: 50%;
 	border: 3px solid #ccc;
+
 	
 }
 #gradlogo{

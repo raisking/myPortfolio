@@ -237,8 +237,8 @@
 	}
 }
 
+/* MOBILE PHONE  */
 @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
     .social-media-wrapper
     		.btn-info{
     	justify-content: center;
@@ -263,6 +263,14 @@
 	}
 	#social-media-icon i{
 		font-size: 20px;
+}
+.about-me{
+  padding-right: 10px;
+  text-align: center;
+}
+.portfoliopic{
+  margin: 30px auto;
+
 }
 .about-me h2{
 	text-align: center;
