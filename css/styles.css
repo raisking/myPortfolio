@@ -76,7 +76,8 @@ h2{
 }
 #intro-div{
 	padding-top: 80px;
-	background-color: #fff;
+	/* background-color: rgb(209, 204, 204); */
+	background: linear-gradient(180deg, #fff, rgb(168, 170, 170));
 	color: #000;
 	padding-bottom: 100px;	
 	/* border: 10px solid rgb(7, 115, 129); */
@@ -137,6 +138,7 @@ h2{
 }
 #skill-page, #mySkills{
 	border: none;
+	
 
 }
 #skill-page{
@@ -1209,7 +1211,8 @@ form .form-control {
 	
 	}
 #skillWrapperContainer{
-	background-color: #fff;
+	background-color: rgb(5, 149, 168);
+	color: #ccc;
 	padding-bottom: 90px;
 	padding-top: 30px;	
 	margin: 0;
@@ -1303,7 +1306,7 @@ section{
 
 
   #randomQuoteDiv{
-	background: linear-gradient(90deg, #fff, #0099CC);
+	background: rgb(168, 170, 170);
 	height: auto;
 
 }
