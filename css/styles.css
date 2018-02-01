@@ -138,8 +138,7 @@ h2{
 }
 #skill-page, #mySkills{
 	border: none;
-	
-
+	color: #000;
 }
 #skill-page{
 	height: 100vh;
@@ -757,7 +756,7 @@ hr{
  #myprojectContainer{
 	 margin: 0;
 	 padding-top: 10px;
-	 background-color: #fff;
+	 background-color: rgb(0, 126, 84);
  }
 
 .projectFlexbox{
@@ -1168,7 +1167,6 @@ form .form-control {
 #skillContainer{
 	display: flex;
 	flex-wrap: wrap;
-	/* background-color: #fff; */
 	justify-content: center;
 	/* border: 1px solid rgb(121, 120, 120); */
 	padding: 5px 30px;
@@ -1178,11 +1176,9 @@ form .form-control {
 }
 
 #skillContainer h3{
-	color: #0099CC;
 	font-weight: bolder;
 }
 #skillContainer-1 h3{
-	color: #0099CC;
 	font-weight: bolder;
 }
 #skillContainer-1{
@@ -1360,9 +1356,11 @@ section{
 	margin: 0 auto;
 }
 #myresumelink{
+	font-weight: bold;
 	border-radius: 20px;
-	padding: 15px;
-	color: #000;
+	padding: 15px 40px;
+	color: #fff;
+	font-size: 1.1em;
 
 
 }
