@@ -18,12 +18,17 @@
 
 body {
 	font-family: 'Quicksand', sans-serif;
-	/* background-image: url(../images/galaxy.jpeg);
+	/* background-image: url(../images/galaxy.jpeg); */
+	background-image: url("https://images7.alphacoders.com/331/thumb-1920-331742.jpg");
+	background-image: url("https://images2.alphacoders.com/667/thumb-1920-667542.jpg");
+	background-image: url("https://images8.alphacoders.com/416/thumb-1920-416024.jpg");
+	background-image: url("https://images2.alphacoders.com/441/thumb-1920-441503.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed; 
-	text-decoration: none; */
+	text-decoration: none; 
+
 }
 
 a {
@@ -41,6 +46,7 @@ h2 {
 
 #header-div {
 	background-color: #fff;
+	opacity: 0.9;
 	color: #000;
 	text-align: center;
 	transition: 1s;
@@ -82,7 +88,9 @@ h2 {
 #intro-div {
 	padding-top: 80px;
 	background: linear-gradient(180deg, #fff, rgb(1, 1, 20));
-	color: #000;
+	opacity: .9;
+	font-weight: bold;
+	 color: #000;
 	padding-bottom: 100px;
 }
 
@@ -1453,8 +1461,13 @@ section {
 	font-weight: bold;
 	border-radius: 20px;
 	padding: 15px 40px;
-	color: rgb(207, 113, 113);
+	color: rgb(12, 0, 0);
 	font-size: 1.1em;
+	cursor: pointer;
+}
+#myresumelink:hover{
+	border: 1px solid rgb(146, 236, 123);
+	transition: all .5s;
 	cursor: pointer;
 }
 
@@ -1472,44 +1485,36 @@ section {
 	text-transform: uppercase;
 }
 #linkedUpContainer {
-	background-color: #00C851;
+	background-color: rgb(191, 202, 196);
 }
-.linkedUp {
+#linkedUp {
 	position: relative;
-	height: 150px;
-	border: 1px solid rgb(4, 75, 13);
-	width: 325px;
+	height: 100px;
 	height: 70px;
-	/* transform: translate(-50%, -50%); */
 	overflow: hidden;
 }
 #slideUp {
 	display: flex;
 	justify-content: center;
 }
-.linkedUp:before {
-	background: tomato;
-	content: "Download Resume";
+#linkedUp:before {
+	justify-content: center;
+	content: "LinkedIn";
+	color: yellow;
 	position: relative;
 	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
 	transition: all .5s;
-	padding: 50px 300px;
 }
-.linkedUp:hover:before {
-	top: -33px;
+#linkedUp:hover:before {
+	top: -50px;
 }
-.linkedUp:after {
-	background: rgb(175, 54, 54);
-	padding: 110px 300px;
+#linkedUp:after {
 	position: relative;
-	top: calc(100% + 100px);
-	left: 50%;
-	transform: translate(-50%, -50%);
-	content: 'My Resume';
+	top: calc(100% + 80px);
+	color: white;
+	content: 'Resume';
 	transition: all .5s;
 }
-.linkedUp:hover::after {
-	top: 2%;
+#linkedUp:hover::after {
+	top: 40%;
 }
