@@ -928,9 +928,9 @@ hr {
 	top: 30%;
 	left: 0;
 	background: rgb(236, 241, 241);
-	border-right: 6px solid rgb(189, 19, 19);
-	border-top: 1px solid rgb(189, 19, 19);
-	border-bottom: 1px solid rgb(189, 19, 19);
+	border-right: 6px solid rgb(6, 62, 151);
+	border-top: 1px solid rgb(6, 62, 151);
+	border-bottom: 1px solid rgb(6, 62, 151);
 	border-top-left-radius: 0;
 	border-bottom-left-radius: 0;
 	z-index: 9999;
