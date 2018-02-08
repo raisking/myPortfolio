@@ -14,7 +14,6 @@ var randomQuote = [
     "\"It always seems impossible until it's done. - Nelson Mandela\"",
     "\" “You just can’t beat the person who never gives up.” —Babe Ruth\""
 ];
-
 var random = Math.floor(Math.random() * randomQuote.length);
 document.getElementById('random-quote').innerHTML = randomQuote[random];    
 
@@ -31,10 +30,12 @@ var images = ['usflag.jpg','usflag1.jpg','usflag2.jpg','usflag3.jpg',
 'usflag4.jpg','usflag5.jpg','usflag6.jpg',
 'wallpaper.jpg','wallpaper1.jpg','wallpaper2.jpg',
 'wallpaper4.png',
-'wallpaper5.gif'
-];
+'wallpaper5.gif'];
  $('body').css({'background-image': 'url(images/' + images[Math.floor(Math.random() * images.length)] + ')'});
 
+
+$('#prakashrai-color').addClass('animated fadeIn');
+$('.about-me').addClass('animated fadeIn');
 
 // $(".myName").hide();
 // $(window).resize(function(){    
@@ -47,8 +48,6 @@ var images = ['usflag.jpg','usflag1.jpg','usflag2.jpg','usflag3.jpg',
 //         $('.myName').hide();
 //     }
 // })
-$('#prakashrai-color').addClass('animated fadeIn');
-$('.about-me').addClass('animated fadeIn');
 
 // $(document).ready(function(){
 //     $(".scroll").hide();
