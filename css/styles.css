@@ -9,6 +9,9 @@
 @import url('https://fonts.googleapis.com/css?family=Russo+One');
 @import url('https://fonts.googleapis.com/css?family=Bungee');
 @import url('https://fonts.googleapis.com/css?family=Sarpanch:900');
+@import url("font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
 * {
 	box-sizing: border-box;
 	text-decoration: none;
@@ -55,7 +58,8 @@ h2 {
 }
 
 .is-sticky #header-div {
-	background-color: rgb(7, 108, 141);
+	background-color: #fff;
+	box-shadow: 2px 2px 10px rgb(77, 76, 76);
 	height: 70px;
 }
 
@@ -87,7 +91,7 @@ h2 {
 
 #intro-div {
 	padding-top: 80px;
-	background: linear-gradient(180deg, #fff, rgb(1, 34, 31));
+	background: linear-gradient(180deg, #fff, rgb(24, 39, 53));
 	opacity: .9;
 	font-weight: bold;
 	 color: #000;
@@ -777,6 +781,11 @@ hr {
 	margin-bottom: 30px;
 	background-color: #000;
 }
+.top{
+	height: 1px;
+	width: 30%;
+
+}
 
 #randomQuoteDiv p {
 	color: rgb(0, 0, 0);
@@ -922,15 +931,14 @@ hr {
 }
 
 /*=====Sticky Social Media Icon*/
-
 #social-media-icon {
 	position: fixed;
 	top: 30%;
 	left: 0;
 	background: rgb(236, 241, 241);
-	border-right: 6px solid rgb(6, 62, 151);
-	border-top: 1px solid rgb(6, 62, 151);
-	border-bottom: 1px solid rgb(6, 62, 151);
+	border-right: 6px solid rgb(212, 6, 58);
+	border-top: 1px solid rgb(212, 6, 58);
+	border-bottom: 1px solid rgb(212, 6, 58);
 	border-top-left-radius: 0;
 	border-bottom-left-radius: 0;
 	z-index: 9999;
@@ -1295,8 +1303,9 @@ form .form-control {
 }
 
 #skillWrapperContainer {
-	background-color: rgb(5, 149, 168);
-	color: #ccc;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	background-color: #fff;
+	color: #000;
 	padding-bottom: 90px;
 	padding-top: 30px;
 	margin: 0;
@@ -1512,4 +1521,65 @@ section {
 }
 #linkedUp:hover::after {
 	top: 40%;
+}
+#landingPageDiv{
+	height: 100vh;
+	background: linear-gradient(180deg, #fff, rgb(27, 98, 165));
+	opacity: .9;
+}
+.skewDiv{
+	transform: skewX(40deg);
+}
+
+/* RESUME BUTTON */
+.resumebtn{
+	width: 325px;
+	height: 70px;
+	border-radius: 10px;
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+}
+.resumebtn:before{
+  background: tomato;
+	content: "Download Resume";
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: all .5s;
+  padding: 50px 300px;
+}
+.resumebtn:hover:before{
+	top: -33px;
+}
+.resumebtn:after{
+   background: #ccc;
+   padding: 50px 300px;
+	position: absolute;
+	top: calc(100% + 80px);
+	left: 50%;
+	transform: translate(-50%, -50%);	
+	content: 'My Resume';	
+	transition: all .5s;
+}
+.resumebtn:hover::after{
+	top: 50%;
+}
+.myNameIntro{
+	position: absolute;
+	top: 35%;
+	left: 30%;
+	font-size: 4em;
+	text-transform: uppercase;
+	border: 10px solid rgb(75, 74, 74);
+	padding: 40px;
+	font-family: 'Orbitron', sans-serif;
+	text-align: center;
+}
+
+.fullsd{
+	font-size: .5em;
 }

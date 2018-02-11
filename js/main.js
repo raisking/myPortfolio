@@ -26,10 +26,9 @@ $(document).on('click','a[href^="#header-div"], a[href^="#intro-full-stack"],a[h
 });
 
 //RANDOM BACKGROUND IMAGE 
-var images = ['usflag.jpg','usflag1.jpg','usflag2.jpg','usflag3.jpg',
+var images = ['usflag.jpg','usflag1.jpg',
 'usflag4.jpg','usflag5.jpg','usflag6.jpg',
-'wallpaper.jpg','wallpaper1.jpg','wallpaper2.jpg',
-'wallpaper4.png',
+'wallpaper.jpg','wallpaper1.jpg','wallpaper2.jpg', 
 'wallpaper5.gif'];
  $('body').css({'background-image': 'url(images/' + images[Math.floor(Math.random() * images.length)] + ')'});
 
