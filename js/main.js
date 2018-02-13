@@ -26,15 +26,25 @@ $(document).on('click','a[href^="#header-div"], a[href^="#intro-full-stack"],a[h
 });
 
 //RANDOM BACKGROUND IMAGE 
-var images = ['usflag.jpg','usflag1.jpg',
-'usflag4.jpg','usflag5.jpg','usflag6.jpg',
-'wallpaper.jpg','wallpaper1.jpg','wallpaper2.jpg', 
-'wallpaper5.gif'];
- $('body').css({'background-image': 'url(images/' + images[Math.floor(Math.random() * images.length)] + ')'});
+var images = ['paris.jpg',
+'usflag5.jpg','nepal1.jpg','usflag6.jpg','ny.jpg',
+'atl.jpg','atl1.jpg','atl2.jpg','kowloon.jpg',
+'nycity.jpg','tokyo.jpg','nepal.jpg'];
+
+setInterval(function(){
+    var myUrl=images[Math.floor(Math.random() * images.length)];
+    document.body.style.backgroundImage = 'url(images/'+myUrl+')';
+},4000);
+//  $('body').css({'background-image': 'url(images/' + images[Math.floor(Math.random() * images.length)] + ')'});
+
+
+
 
 
 $('#prakashrai-color').addClass('animated fadeIn');
 $('.about-me').addClass('animated fadeIn');
+
+
 
 // $(".myName").hide();
 // $(window).resize(function(){    
