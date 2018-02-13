@@ -313,6 +313,16 @@
 	.threeD ul{
 	display: none;
   } 
+  .fullstackdeveloper{
+    font-size: 1em;
+  }
+  #picme{
+    width: 100px;
+    border: 5px solid #fff;
+  }
+  #landingPageDiv{
+    height: 50vh;
+  }
 
 }
 

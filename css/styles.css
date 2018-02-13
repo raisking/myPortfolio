@@ -48,7 +48,7 @@ h2 {
 }
 
 #header-div {
-	background-color: #fff;
+	background-color: #000;
 	opacity: 0.8;
 	color: #000;
 	text-align: center;
@@ -1519,7 +1519,8 @@ section {
 }
 #landingPageDiv{
 	height: 100vh;
-	background: linear-gradient(180deg, #fff, rgb(8, 8, 8));
+	/* background: linear-gradient(180deg, #fff, rgb(8, 8, 8)); */
+	background-color: #000;
 	opacity: 0.8;
 }
 .skewDiv{
@@ -1597,6 +1598,9 @@ section {
 }
 .flexboxlandingpage{
 	padding-top: 10%;
+	width: 45%;
+	margin-left: auto;
+	margin-right: auto;
 }
 .itemslandingpage{
 	text-transform: uppercase;
@@ -1619,8 +1623,9 @@ section {
 	height: 40px;
 	text-align: center;
 	padding-top: -5px;
-	border: 1px solid black;
+	border: 1px solid rgb(243, 243, 243);
 	background-color: #ddd;
+	opacity: .7;
 }
 .mediaitems .fa{
 	color: #000;
@@ -1631,4 +1636,11 @@ section {
 }
 .mediaitems .fa:hover{
 	color: #fff;
+}
+
+#landLine{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	border-top: 1px solid red;
+	border-bottom: 1px solid red;
 }
