@@ -317,11 +317,11 @@
     font-size: 1em;
   }
   #picme{
-    width: 100px;
+    width: 80px;
     border: 5px solid #fff;
   }
   #landingPageDiv{
-    height: 50vh;
+    height: 70vh;
   }
 
 }

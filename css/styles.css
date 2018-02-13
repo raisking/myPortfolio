@@ -783,7 +783,7 @@ hr {
 }
 
 #randomQuoteDiv p {
-	color: rgb(0, 0, 0);
+	color: rgb(5, 5, 5);
 	padding-top: 20px;
 	font-size: 1.4em;
 	margin: auto;
@@ -1393,10 +1393,11 @@ section {
 }
 
 #randomQuoteDiv {
-	background: rgb(242, 243, 243);
+	background: #fff;
+	opacity: .7;
 	border-top: 1px solid #fff;
 	border-bottom: 1px solid #fff;
-	padding: 40px 0;
+	padding: 0px 0;
 	height: auto;
 }
 
@@ -1580,7 +1581,7 @@ section {
 	font-size: .5em;
 } */
 #picme{
-	width: 200px;
+	width: 120px;
 	border-radius: 100%;
 	display: block;
 	margin-left: auto;
@@ -1592,13 +1593,13 @@ section {
 
 .fullstackdeveloper{
 	margin: 20px 0;
-	font-size: 3em;
+	font-size: 2em;
 	font-family: 'Orbitron', sans-serif;
 	font-weight: bolder;
 }
 .flexboxlandingpage{
 	padding-top: 10%;
-	width: 45%;
+	width: 35%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -1643,4 +1644,5 @@ section {
 	margin-bottom: 10px;
 	border-top: 1px solid red;
 	border-bottom: 1px solid red;
+
 }

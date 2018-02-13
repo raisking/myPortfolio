@@ -28,7 +28,7 @@ $(document).on('click','a[href^="#header-div"], a[href^="#intro-full-stack"],a[h
 //RANDOM BACKGROUND IMAGE 
 var images = ['paris.jpg',
 'usflag5.jpg','nepal1.jpg','usflag6.jpg','ny.jpg',
-'atl.jpg','atl1.jpg','atl2.jpg','kowloon.jpg',
+'atl.jpg','atl2.jpg','kowloon.jpg',
 'nycity.jpg','tokyo.jpg','nepal.jpg'];
 
 setInterval(function(){
