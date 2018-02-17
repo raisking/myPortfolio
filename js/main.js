@@ -26,20 +26,15 @@ $(document).on('click','a[href^="#header-div"], a[href^="#intro-full-stack"],a[h
 });
 
 //RANDOM BACKGROUND IMAGE 
-var images = ['paris.jpg',
-'usflag5.jpg','nepal1.jpg','usflag6.jpg','ny.jpg',
-'atl.jpg','atl2.jpg','kowloon.jpg',
-'nycity.jpg','tokyo.jpg','nepal.jpg'];
-
+var images = [ 'opensource.jpg','databreach.jpg','ipaddress.jpg','motherboard.jpg','paris.jpg','usflag5.jpg','nepal1.jpg','usflag6.jpg','ny.jpg',
+'atl.jpg','atl2.jpeg','kowloon.jpg','pwd.jpg','world.jpg','cyberattack.jpg',
+   'nycity.jpg','tokyo.jpg','nepal.jpg', 'cali.jpg','cali2.jpg'];
 setInterval(function(){
+    //Randomly select the bg images from array every 2 secs
     var myUrl=images[Math.floor(Math.random() * images.length)];
-    document.body.style.backgroundImage = 'url(images/'+myUrl+')';
-},4000);
+    document.body.style.backgroundImage = 'url(images/randomimages/'+myUrl+')';
+},2000);
 //  $('body').css({'background-image': 'url(images/' + images[Math.floor(Math.random() * images.length)] + ')'});
-
-
-
-
 
 $('#prakashrai-color').addClass('animated fadeIn');
 $('.about-me').addClass('animated fadeIn');
