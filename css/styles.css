@@ -249,7 +249,7 @@ h2 {
 
 #name-pic {
 	background-color: #fff;
-	opacity: 0.8;
+	opacity: 0.7;
 	/* padding-top: 50px; */
 	padding-bottom: 24px;
 	text-align: center;
@@ -386,7 +386,7 @@ ul.colors li:nth-child(7) {
 	align-items: center;
 }
 
-.name ul li: hover {
+.name ul li:hover {
 	font-size: 20px;
 }
 
@@ -415,8 +415,8 @@ ul.colors li:nth-child(7) {
 
 #about-me {
 	background-color: #fff;
-	opacity: .8;
-	padding: 70px 50px 25px 60px;
+	opacity: .7;
+	padding: 70px 50px 27.5px 60px;
 	font-size: 16px;
 }
 .myName {
@@ -472,7 +472,7 @@ ul.colors li:nth-child(7) {
 }
 
 .logo-circle {
-	background-c olor: white;
+	background-color: white;
 }
 
 .logo-circle h1 {
