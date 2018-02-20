@@ -39,6 +39,21 @@ setInterval(function(){
 $('#prakashrai-color').addClass('animated fadeIn');
 $('.about-me').addClass('animated fadeIn');
 
+var hide = $("#scrolldown").hide();
+$(document).ready(function(){
+    $('#arrowdown').mouseenter(function(){
+        $(this).hide();
+        $('#scrolldown').show();
+        // $('#scrolldown').fadeOut();
+    })
+    $('#scrolldown').mouseleave(function(){
+        $(this).hide();
+        $('#arrowdown').show();
+        // $('#arrowdown').fadeIn();
+    })
+})
+
+
 
 
 // $(".myName").hide();

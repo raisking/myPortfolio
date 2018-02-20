@@ -239,6 +239,11 @@
 
 /* MOBILE PHONE  */
 @media only screen and (max-width: 768px) {
+  .mylogo {
+    height: 30px;
+    margin-top: 20px;
+    padding: 0;
+  }
     .social-media-wrapper
     		.btn-info{
     	justify-content: center;
