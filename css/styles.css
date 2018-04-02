@@ -104,7 +104,8 @@ h2 {
 
 #intro-div {
 	font-weight: bold;
-	background-image: url('../images/meslide.jpg');
+	background-color: #ddd;
+	/* background-image: url('../images/meslide.jpg'); */
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
