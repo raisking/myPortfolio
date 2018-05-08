@@ -328,8 +328,12 @@
   #landingPageDiv{
     height: 90vh;
   }
+  #arrowdown{
+    margin-top: 60px;
+  }
 
-}
+} 
+/* Mobile Query End */
 
 /* Animation */
 .anim-typewriter{
