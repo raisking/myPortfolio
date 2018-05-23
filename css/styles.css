@@ -1467,7 +1467,30 @@ section {
 	position: relative;
 	top: 20px;
 }
+#react-resume {
+	background-color: #3F729B;
+	border: 1px solid black;
+	font-weight: bold;
+	border-radius: 5px;
+	padding: 15px 40px;
+	color: rgb(12, 0, 0);
+	font-size: 1.1em;
+	cursor: pointer;
+}
+#react-resume:hover{
+	/* border: 1px solid rgb(146, 236, 123); */
+	background-color: #0CF;
+	transition: all 1s;
+	cursor: pointer;
+}
 
+#react-resume:before {
+	content: "Resume Online";
+}
+
+#react-resume:hover:before {
+	top: -10px;
+}
 #myresumelink {
 	background-color: #3F729B;
 	border: 1px solid black;
