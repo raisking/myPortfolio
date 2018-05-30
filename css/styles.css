@@ -275,7 +275,7 @@ h2 {
 }
 
 .des {
-	font-size: 1.3em;
+	font-size: 1.2em;
 	padding-top: 10px;
 	padding-right: 25px;
 }
@@ -1480,6 +1480,7 @@ section {
 #react-resume:hover{
 	/* border: 1px solid rgb(146, 236, 123); */
 	background-color: #0CF;
+	color: #fff;
 	transition: all 1s;
 	cursor: pointer;
 }
@@ -1496,7 +1497,7 @@ section {
 	border: 1px solid black;
 	font-weight: bold;
 	border-radius: 5px;
-	padding: 15px 40px;
+	padding: 15px 26px;
 	color: rgb(12, 0, 0);
 	font-size: 1.1em;
 	cursor: pointer;
@@ -1504,6 +1505,7 @@ section {
 #myresumelink:hover{
 	/* border: 1px solid rgb(146, 236, 123); */
 	background-color: #0CF;
+	color: #fff;
 	transition: all 1s;
 	cursor: pointer;
 }
