@@ -47,6 +47,7 @@ a {
 
 a:hover {
 	text-decoration: none;
+	color: red;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -947,12 +948,12 @@ hr {
 	position: fixed;
 	top: 30%;
 	left: 0;
-	background: none;
-	/* border-right: 6px solid rgb(212, 6, 58);
+	background: #ddd;
+	border-right: 6px solid rgb(212, 6, 58);
 	border-top: 1px solid rgb(212, 6, 58);
-	border-bottom: 1px solid rgb(212, 6, 58); */
-	border-top-left-radius: 0;
-	border-bottom-left-radius: 0;
+	border-bottom: 1px solid rgb(212, 6, 58);
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
 	z-index: 9999;
 }
 
@@ -968,7 +969,7 @@ hr {
 #social-media-icon ul li a {
 	display: block;
 	color: rgb(10, 32, 68);
-	padding: 5px;
+	padding: 2px;
 	transition: transform .5s ease-in-out;
 }
 
@@ -1350,6 +1351,12 @@ form .form-control {
 	font-weight: bold;
 }
 
+.btn-link:hover {
+	color: red;
+	text-decoration: none;
+	transition: all 1s;
+}
+
 .seeMore {
 	position: relative;
 	left: 50%;
@@ -1709,6 +1716,9 @@ section {
 .hello {
 	color: red;
 	font-weight: bold;
+	margin: 0;
+	font-weight: 800;
+	font-family: "Roboto Condensed", sans-serif;
 }
 
 .itemslandingpage img {
