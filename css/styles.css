@@ -1556,13 +1556,6 @@ section {
 	top: -10px;
 }
 
-#spanskills {
-	background-color: rgb(93, 90, 90);
-	padding: 5px 10px;
-	color: #fff;
-	text-transform: uppercase;
-}
-
 #linkedUpContainer {
 	background-color: rgb(191, 202, 196);
 }
@@ -1709,9 +1702,9 @@ section {
 	margin-right: auto;
 }
 
-.itemslandingpage {
+/* .itemslandingpage {
 	text-transform: uppercase;
-}
+} */
 
 .hello {
 	color: red;
