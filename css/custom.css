@@ -144,8 +144,8 @@ h2 {
 }
 
 .flexboxlandingpage {
-    padding-top: 12%;
-    width: 18%;
+    padding-top: 15%;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -156,6 +156,25 @@ h2 {
     margin: 0;
     font-weight: 800;
     font-family: "Roboto Condensed", sans-serif;
+    animation-name: bounce;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes bounce {
+    0% {
+        top: 0px;
+    }
+    50% {
+        top: 20px;
+        width: 130px;
+        height: 30px;
+        opacity: 0.5;
+    }
+    100% {
+        top: 0px;
+    }
 }
 
 .itemslandingpage img {
@@ -645,18 +664,20 @@ h2 {
 
 .projectFlexboxItem {
     background-color: rgb(255, 255, 255);
-    width: 360px;
+    width: 350px;
     height: auto;
     margin: 20px 0;
-    /* box-shadow: 2px 2px 2px 4px rgb(202, 225, 238); */
     border: 1px solid rgb(168, 166, 166);
-    box-shadow: 2px 5px 11px rgb(170, 182, 194);
+    box-shadow: 2px 5px 11px #888;
+    border-radius: 10px;
 }
 
 .projectHeaderflexbox {
     border: 1px solid rgb(168, 166, 166);
     background-color: #3F729B;
     height: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .projectHeaderflexbox h3 {
@@ -720,6 +741,7 @@ h2 {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     z-index: 9999;
+    width: 50px;
 }
 
 #social-media-icon ul {
@@ -858,7 +880,8 @@ h2 {
         top: 30%;
     }
     #social-media-icon i {
-        font-size: 20px;
+        font-size: 25px;
+        padding: 8px 0 0 6px;
     }
     .about-me {
         padding-right: 10px;
@@ -907,10 +930,15 @@ h2 {
         display: none;
     }
     .fullstackdeveloper {
-        font-size: 2em;
         text-align: center;
         margin-left: 0;
         margin-right: 0;
+    }
+    .flexboxlandingpage {
+        padding-top: 45%;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
     }
     #picme {
         width: 80px;
